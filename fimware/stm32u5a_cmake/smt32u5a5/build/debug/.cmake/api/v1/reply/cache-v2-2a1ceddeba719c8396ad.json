@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1187,7 +1187,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/cmake/gcc-arm-none-eabi.cmake"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug"
 		},
 		{
 			"name" : "smt32u5a5_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+			"value" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 		}
 	],
 	"kind" : "cache",

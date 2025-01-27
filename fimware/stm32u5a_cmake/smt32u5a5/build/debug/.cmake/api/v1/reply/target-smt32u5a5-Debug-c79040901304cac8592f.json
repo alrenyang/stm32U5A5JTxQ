@@ -30,43 +30,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 75,
+				"line" : 76,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 153,
+				"line" : 154,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 72,
+				"line" : 73,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 131,
+				"line" : 132,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 115,
+				"line" : 116,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 95,
+				"line" : 96,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 89,
+				"line" : 90,
 				"parent" : 0
 			}
 		]
@@ -147,47 +147,47 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/bsp"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/bsp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw/inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "C",
@@ -331,47 +331,47 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/bsp"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/bsp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw/inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/hw/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "ASM",
@@ -396,7 +396,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-T/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/stm32u5a5zjtxq_FLASH.ld",
+				"fragment" : "-T/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/stm32u5a5zjtxq_FLASH.ld",
 				"role" : "flags"
 			},
 			{
@@ -491,7 +491,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-L/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/smt32u5a5",
+				"fragment" : "-L/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/smt32u5a5",
 				"role" : "libraryPath"
 			}
 		],

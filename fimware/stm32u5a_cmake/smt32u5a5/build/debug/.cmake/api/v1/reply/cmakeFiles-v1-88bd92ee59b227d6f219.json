@@ -138,8 +138,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug",
-		"source" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+		"build" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug",
+		"source" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 	},
 	"version" : 
 	{

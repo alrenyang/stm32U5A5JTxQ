@@ -18,10 +18,9 @@
                 "port=swd",
                 "--download",
                 "${command:cmake.launchTargetPath}",
-                // Let CMake extension decide executable: "${command:cmake.launchTargetPath}",
-                "-hardRst", // Hardware reset - if rst pin is connected
-                "-rst", // Software reset (backup)
-                "--start" // Start execution
+                "-hardRst",
+                "-rst",
+                "--start"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
@@ -33,10 +32,26 @@
             "dependsOrder": "sequence",
             "dependsOn": [
                 "CMake: clean rebuild",
-                "CubeProg: Flash project (SWD)",
+                "CubeProg: Flash project (SWD)"
             ]
         },
-                {
+        {
+            "type": "cmake",
+            "label": "clean",
+            "command": "clean",
+            "targets": [
+                "all"
+            ]
+        },
+        {
+            "type": "cmake",
+            "label": "build",
+            "command": "build",
+            "targets": [
+                "all"
+            ]
+        },
+        {
             "type": "cmake",
             "label": "CMake: clean rebuild",
             "command": "cleanRebuild",
@@ -57,6 +72,6 @@
                 "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
-        },
+        }
     ]
 }

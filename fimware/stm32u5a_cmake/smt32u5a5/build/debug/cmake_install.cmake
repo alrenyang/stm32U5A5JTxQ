@@ -1,4 +1,4 @@
-# Install script for directory: /Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5
+# Install script for directory: /Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

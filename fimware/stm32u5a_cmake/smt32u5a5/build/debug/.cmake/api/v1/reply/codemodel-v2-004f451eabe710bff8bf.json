@@ -39,7 +39,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "smt32u5a5::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-smt32u5a5-Debug-b21f348169b17f51b202.json",
+					"jsonFile" : "target-smt32u5a5-Debug-c79040901304cac8592f.json",
 					"name" : "smt32u5a5",
 					"projectIndex" : 0
 				}
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug",
-		"source" : "/Users/alrenm3/program/stm32u5a5/vscode_stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
+		"build" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/build/debug",
+		"source" : "/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5"
 	},
 	"version" : 
 	{

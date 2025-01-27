@@ -1,3 +1,0 @@
-/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/CMakeFiles/smt32u5a5.dir
-/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/CMakeFiles/edit_cache.dir
-/Users/alrenm3/program/stm32u5a5/fimware/stm32u5a_cmake/smt32u5a5/CMakeFiles/rebuild_cache.dir

@@ -386,200 +386,6 @@ Discarded input sections
  .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
  .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
  .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text.initialise_monitor_handles
-                0x00000000        0x2 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._getpid  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._kill    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._exit    0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._read    0x00000000       0x20 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._write   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._close   0x00000000        0x6 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._fstat   0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._isatty  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._lseek   0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._open    0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._wait    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._unlink  0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._times   0x00000000        0x6 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._stat    0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._link    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._fork    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .text._execve  0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .data.environ  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .bss.__env     0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_info    0x00000000      0x787 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_abbrev  0x00000000      0x1c3 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_loclists
-                0x00000000      0x25b CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_aranges
-                0x00000000       0xa8 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_rnglists
-                0x00000000       0x79 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x265 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x6e CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x94 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x57 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x369 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x35 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x52 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x52 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0xcf CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x3d CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x35 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x12c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x29 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x242 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x170 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000      0x18a CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_macro   0x00000000       0xce CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_line    0x00000000      0x66b CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_str     0x00000000     0x939b CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .debug_frame   0x00000000      0x190 CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .ARM.attributes
-                0x00000000       0x3a CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .text._sbrk    0x00000000       0x48 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .bss.__sbrk_heap_end
-                0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_info    0x00000000      0x175 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_abbrev  0x00000000       0xec CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_loclists
-                0x00000000       0x46 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_aranges
-                0x00000000       0x20 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_rnglists
-                0x00000000       0x13 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0xec CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x6e CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x94 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x57 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x23c CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_line    0x00000000      0x2dd CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_str     0x00000000     0x5b0f CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .debug_frame   0x00000000       0x28 CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
- .ARM.attributes
-                0x00000000       0x3a CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
  .text          0x00000000       0x14 CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
  .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
  .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
@@ -1010,6 +816,313 @@ Discarded input sections
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
  .debug_macro   0x00000000       0xe2 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text.initialise_monitor_handles
+                0x00000000        0x2 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._getpid  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._kill    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._exit    0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._read    0x00000000       0x20 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._write   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._close   0x00000000        0x6 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._fstat   0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._isatty  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._lseek   0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._open    0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._wait    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._unlink  0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._times   0x00000000        0x6 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._stat    0x00000000        0xa CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._link    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._fork    0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .text._execve  0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .data.environ  0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .bss.__env     0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_info    0x00000000      0x787 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_abbrev  0x00000000      0x1c3 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_loclists
+                0x00000000      0x25b CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_aranges
+                0x00000000       0xa8 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_rnglists
+                0x00000000       0x79 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x265 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x6e CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x369 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x52 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0xcf CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x3d CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x35 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x12c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x242 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x170 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000      0x18a CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_macro   0x00000000       0xce CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_line    0x00000000      0x675 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_str     0x00000000     0x93a5 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .debug_frame   0x00000000      0x190 CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .text._sbrk    0x00000000       0x48 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .bss.__sbrk_heap_end
+                0x00000000        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_info    0x00000000      0x175 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_abbrev  0x00000000       0xec CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_loclists
+                0x00000000       0x46 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_aranges
+                0x00000000       0x20 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_rnglists
+                0x00000000       0x13 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0xec CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x6e CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x94 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x57 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0x23c CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_line    0x00000000      0x2e7 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_str     0x00000000     0x5b19 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .debug_frame   0x00000000       0x28 CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .ARM.attributes
+                0x00000000       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .text.SystemCoreClockUpdate
+                0x00000000      0x148 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x2e CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x42 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x8e CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x51 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x29 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0xfb CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000     0x1685 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x5e CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000    0x260c6 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x6d CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x207 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000     0x393e CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x74 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x369 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x19b CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x5d CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000     0x1d23 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x8f4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x166 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x2d8 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0xc9 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x5eb CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x463 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0xd6 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x1cd CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x432 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x95 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x11c CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x52c CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x5d5 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0xbcc CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x527 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x677 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x1a1 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x293 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
@@ -1989,7 +2102,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
- .debug_line    0x00000000      0xe1c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
+ .debug_line    0x00000000      0xe20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
  .debug_str     0x00000000   0x151fa4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
  .debug_frame   0x00000000      0x128 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c.obj
@@ -2144,7 +2257,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
- .debug_line    0x00000000      0xcb2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
+ .debug_line    0x00000000      0xcb6 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
  .debug_str     0x00000000   0x15217d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
  .debug_frame   0x00000000      0x128 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c.obj
@@ -2316,7 +2429,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
- .debug_line    0x00000000     0x1223 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
+ .debug_line    0x00000000     0x1227 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
  .debug_str     0x00000000   0x1523ca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
  .debug_frame   0x00000000      0x1f0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c.obj
@@ -2569,7 +2682,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
- .debug_line    0x00000000      0x71a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
+ .debug_line    0x00000000      0x71e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
  .debug_str     0x00000000   0x151c3c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c.obj
  .ARM.attributes
@@ -2690,7 +2803,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
- .debug_line    0x00000000      0x719 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
+ .debug_line    0x00000000      0x71d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
  .debug_str     0x00000000   0x151c3b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c.obj
  .ARM.attributes
@@ -2811,7 +2924,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
- .debug_line    0x00000000      0x71c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
+ .debug_line    0x00000000      0x720 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
  .debug_str     0x00000000   0x151c3e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c.obj
  .ARM.attributes
@@ -3395,7 +3508,7 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
- .debug_line    0x00000000      0xa4b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
+ .debug_line    0x00000000      0xa4f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
  .debug_str     0x00000000   0x1521cc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
  .comment       0x00000000       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
  .debug_frame   0x00000000      0x148 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c.obj
@@ -5081,119 +5194,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
  .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
  .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .group         0x00000000        0xc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .text          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .data          0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .bss           0x00000000        0x0 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .text.SystemCoreClockUpdate
-                0x00000000      0x148 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0xaba CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x2e CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x42 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x22 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x8e CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x51 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x103 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x6a CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x1df CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x1c CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x29 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0xfb CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000     0x1685 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x5e CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000    0x260c6 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x6d CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x207 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000     0x393e CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x189 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x74 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x2a CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x3c CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x16 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x34 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x10 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x58 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x1de CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x369 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x19b CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x5d CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000     0x1d23 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x8f4 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x166 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x2d8 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0xc9 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x5eb CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x463 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0xd6 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x1cd CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x432 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x95 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x11c CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x52c CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x5d5 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0xbcc CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x527 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x677 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x1a1 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x293 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000       0x82 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x1d3 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
- .debug_macro   0x00000000      0x448 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
  .data          0x00000000        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x00000000        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .data          0x00000000        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
@@ -5231,12 +5231,13 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
 LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libsupc++.a
 END GROUP
 LOAD CMakeFiles/smt32u5a5.dir/Src/main.c.obj
-LOAD CMakeFiles/smt32u5a5.dir/Src/syscall.c.obj
-LOAD CMakeFiles/smt32u5a5.dir/Src/sysmem.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
+LOAD CMakeFiles/smt32u5a5.dir/Src/hw/driver/syscall.c.obj
+LOAD CMakeFiles/smt32u5a5.dir/Src/hw/driver/sysmem.c.obj
+LOAD CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
@@ -5261,7 +5262,6 @@ LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_
 LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
 LOAD CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-LOAD CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
 START GROUP
 LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a
 LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libg.a
@@ -5530,319 +5530,319 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .text.OTG_HS_IRQHandler
                 0x08000db0       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
                 0x08000db0                OTG_HS_IRQHandler
- .text.hwInit   0x08000dc0        0xe CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
-                0x08000dc0                hwInit
- *fill*         0x08000dce        0x2 
- .text.HAL_InitTick
-                0x08000dd0       0xac CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000dd0                HAL_InitTick
- .text.HAL_Init
-                0x08000e7c       0x54 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000e7c                HAL_Init
- .text.HAL_IncTick
-                0x08000ed0       0x18 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000ed0                HAL_IncTick
- .text.HAL_GetTick
-                0x08000ee8        0xc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000ee8                HAL_GetTick
- .text.HAL_Delay
-                0x08000ef4       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000ef4                HAL_Delay
- .text.HAL_SYSCFG_EnableOTGPHY
-                0x08000f1c       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000f1c                HAL_SYSCFG_EnableOTGPHY
- .text.HAL_SYSCFG_SetOTGPHYReferenceClockSelection
-                0x08000f30       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x08000f30                HAL_SYSCFG_SetOTGPHYReferenceClockSelection
- .text.__NVIC_EnableIRQ
-                0x08000f44       0x1c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .text.__NVIC_SetPriority
-                0x08000f60       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .text.NVIC_EncodePriority
-                0x08000f88       0x3e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- *fill*         0x08000fc6        0x2 
- .text.HAL_NVIC_SetPriorityGrouping
-                0x08000fc8       0x24 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x08000fc8                HAL_NVIC_SetPriorityGrouping
- .text.HAL_NVIC_SetPriority
-                0x08000fec       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x08000fec                HAL_NVIC_SetPriority
- .text.HAL_NVIC_EnableIRQ
-                0x0800100c        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x0800100c                HAL_NVIC_EnableIRQ
- .text.HAL_SYSTICK_Config
-                0x08001014       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x08001014                HAL_SYSTICK_Config
- .text.HAL_SYSTICK_CLKSourceConfig
-                0x08001034       0x7c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x08001034                HAL_SYSTICK_CLKSourceConfig
- .text.HAL_SYSTICK_GetCLKSourceConfig
-                0x080010b0       0x34 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
-                0x080010b0                HAL_SYSTICK_GetCLKSourceConfig
- .text.DMA_Init
-                0x080010e4      0x344 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .text.HAL_DMA_Init
-                0x08001428       0x5e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
-                0x08001428                HAL_DMA_Init
- .text.HAL_DMA_ConfigChannelAttributes
-                0x08001486       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
-                0x08001486                HAL_DMA_ConfigChannelAttributes
- .text.DMA_List_Init
-                0x080014cc      0x1b0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .text.HAL_DMAEx_List_Init
-                0x0800167c       0x5e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
-                0x0800167c                HAL_DMAEx_List_Init
- *fill*         0x080016da        0x2 
- .text.HAL_GPIO_Init
-                0x080016dc      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
-                0x080016dc                HAL_GPIO_Init
- .text.HAL_GPIO_WritePin
-                0x080018f8        0xa CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
-                0x080018f8                HAL_GPIO_WritePin
- *fill*         0x08001902        0x2 
- .text.HAL_ICACHE_Enable
-                0x08001904       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
-                0x08001904                HAL_ICACHE_Enable
- .text.PCD_WriteEmptyTxFifo
-                0x08001918       0xd0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .text.HAL_PCD_Init
-                0x080019e8      0x102 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x080019e8                HAL_PCD_Init
- .text.HAL_PCD_DataOutStageCallback
-                0x08001aea        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001aea                HAL_PCD_DataOutStageCallback
- .text.PCD_EP_OutXfrComplete_int
-                0x08001aec      0x104 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .text.HAL_PCD_DataInStageCallback
-                0x08001bf0        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001bf0                HAL_PCD_DataInStageCallback
- .text.HAL_PCD_SetupStageCallback
-                0x08001bf2        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001bf2                HAL_PCD_SetupStageCallback
- .text.PCD_EP_OutSetupPacket_int
-                0x08001bf4       0x50 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .text.HAL_PCD_SOFCallback
-                0x08001c44        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c44                HAL_PCD_SOFCallback
- .text.HAL_PCD_ResetCallback
-                0x08001c46        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c46                HAL_PCD_ResetCallback
- .text.HAL_PCD_SuspendCallback
-                0x08001c48        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c48                HAL_PCD_SuspendCallback
- .text.HAL_PCD_ResumeCallback
-                0x08001c4a        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c4a                HAL_PCD_ResumeCallback
- .text.HAL_PCD_ISOOUTIncompleteCallback
-                0x08001c4c        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c4c                HAL_PCD_ISOOUTIncompleteCallback
- .text.HAL_PCD_ISOINIncompleteCallback
-                0x08001c4e        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c4e                HAL_PCD_ISOINIncompleteCallback
- .text.HAL_PCD_ConnectCallback
-                0x08001c50        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c50                HAL_PCD_ConnectCallback
- .text.HAL_PCD_DisconnectCallback
-                0x08001c52        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c52                HAL_PCD_DisconnectCallback
- .text.HAL_PCD_EP_Abort
-                0x08001c54       0x34 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c54                HAL_PCD_EP_Abort
- .text.HAL_PCD_IRQHandler
-                0x08001c88      0x5fe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
-                0x08001c88                HAL_PCD_IRQHandler
- .text.HAL_PCDEx_ActivateLPM
-                0x08002286       0x26 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
-                0x08002286                HAL_PCDEx_ActivateLPM
- .text.HAL_PCDEx_LPM_Callback
-                0x080022ac        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
-                0x080022ac                HAL_PCDEx_LPM_Callback
- *fill*         0x080022ae        0x2 
- .text.HAL_PWREx_ControlVoltageScaling
-                0x080022b0       0xa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x080022b0                HAL_PWREx_ControlVoltageScaling
- .text.HAL_PWREx_GetVoltageRange
-                0x08002350       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x08002350                HAL_PWREx_GetVoltageRange
- .text.HAL_PWREx_ConfigSupply
-                0x08002360       0x6c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x08002360                HAL_PWREx_ConfigSupply
- .text.HAL_PWREx_EnableVddUSB
-                0x080023cc       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x080023cc                HAL_PWREx_EnableVddUSB
- .text.HAL_PWREx_EnableVddIO2
-                0x080023dc       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x080023dc                HAL_PWREx_EnableVddIO2
- .text.HAL_PWREx_EnableUSBHSTranceiverSupply
-                0x080023ec       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x080023ec                HAL_PWREx_EnableUSBHSTranceiverSupply
- .text.HAL_PWREx_DisableUCPDDeadBattery
-                0x08002414       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
-                0x08002414                HAL_PWREx_DisableUCPDDeadBattery
- .text.RCC_SetFlashLatencyFromMSIRange
-                0x08002424       0xc4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .text.HAL_RCC_GetSysClockFreq
-                0x080024e8      0x17c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x080024e8                HAL_RCC_GetSysClockFreq
- .text.HAL_RCC_ClockConfig
-                0x08002664      0x30c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08002664                HAL_RCC_ClockConfig
- .text.HAL_RCC_GetHCLKFreq
-                0x08002970       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08002970                HAL_RCC_GetHCLKFreq
- .text.HAL_RCC_OscConfig
-                0x08002998      0xaa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08002998                HAL_RCC_OscConfig
- .text.HAL_RCC_GetPCLK1Freq
-                0x08003438       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08003438                HAL_RCC_GetPCLK1Freq
- .text.HAL_RCC_GetPCLK2Freq
-                0x08003458       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08003458                HAL_RCC_GetPCLK2Freq
- .text.HAL_RCC_GetPCLK3Freq
-                0x08003478       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
-                0x08003478                HAL_RCC_GetPCLK3Freq
- .text.RCCEx_PLL3_Config
-                0x08003498       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .text.RCCEx_PLL2_Config
-                0x0800357c       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .text.HAL_RCCEx_PeriphCLKConfig
-                0x08003660      0x79c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
-                0x08003660                HAL_RCCEx_PeriphCLKConfig
- .text.HAL_RCCEx_GetPLL1ClockFreq
-                0x08003dfc      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
-                0x08003dfc                HAL_RCCEx_GetPLL1ClockFreq
- .text.HAL_RCCEx_GetPLL2ClockFreq
-                0x08004018      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
-                0x08004018                HAL_RCCEx_GetPLL2ClockFreq
- .text.HAL_RCCEx_GetPLL3ClockFreq
-                0x08004234      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
-                0x08004234                HAL_RCCEx_GetPLL3ClockFreq
- .text.HAL_RCCEx_GetPeriphCLKFreq
-                0x08004450     0x122c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
-                0x08004450                HAL_RCCEx_GetPeriphCLKFreq
- .text.TIM_TI1_ConfigInputStage
-                0x0800567c       0x26 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .text.TIM_TI2_ConfigInputStage
-                0x080056a2       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .text.TIM_ITRx_SetConfig
-                0x080056ca       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- *fill*         0x080056de        0x2 
- .text.TIM_Base_SetConfig
-                0x080056e0      0x16c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
-                0x080056e0                TIM_Base_SetConfig
- .text.HAL_TIM_Base_Init
-                0x0800584c       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
-                0x0800584c                HAL_TIM_Base_Init
- .text.TIM_ETR_SetConfig
-                0x080058ac       0x1a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
-                0x080058ac                TIM_ETR_SetConfig
- *fill*         0x080058c6        0x2 
- .text.HAL_TIM_ConfigClockSource
-                0x080058c8      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
-                0x080058c8                HAL_TIM_ConfigClockSource
- .text.HAL_TIMEx_MasterConfigSynchronization
-                0x08005a08       0xe8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
-                0x08005a08                HAL_TIMEx_MasterConfigSynchronization
- .text.UART_EndRxTransfer
-                0x08005af0       0x56 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- *fill*         0x08005b46        0x2 
- .text.UART_SetConfig
-                0x08005b48      0x1e4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x08005b48                UART_SetConfig
- .text.UART_AdvFeatureConfig
-                0x08005d2c       0xca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x08005d2c                UART_AdvFeatureConfig
- .text.UART_WaitOnFlagUntilTimeout
-                0x08005df6       0x9e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x08005df6                UART_WaitOnFlagUntilTimeout
- .text.UART_CheckIdleState
-                0x08005e94       0xca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x08005e94                UART_CheckIdleState
- .text.HAL_UART_Init
-                0x08005f5e       0x66 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x08005f5e                HAL_UART_Init
- .text.UARTEx_SetNbDataToProcess
-                0x08005fc4       0x4c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .text.HAL_UARTEx_DisableFifoMode
-                0x08006010       0x3e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
-                0x08006010                HAL_UARTEx_DisableFifoMode
- .text.HAL_UARTEx_SetTxFifoThreshold
-                0x0800604e       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
-                0x0800604e                HAL_UARTEx_SetTxFifoThreshold
- .text.HAL_UARTEx_SetRxFifoThreshold
-                0x08006098       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
-                0x08006098                HAL_UARTEx_SetRxFifoThreshold
- .text.USB_CoreReset
-                0x080060e2       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .text.USB_CoreInit
-                0x0800612c       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x0800612c                USB_CoreInit
- *fill*         0x08006172        0x2 
- .text.USB_SetTurnaroundTime
-                0x08006174       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006174                USB_SetTurnaroundTime
- .text.USB_DisableGlobalInt
-                0x08006258        0xc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006258                USB_DisableGlobalInt
- .text.USB_FlushTxFifo
-                0x08006264       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006264                USB_FlushTxFifo
- .text.USB_FlushRxFifo
-                0x080062ae       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080062ae                USB_FlushRxFifo
- .text.USB_SetDevSpeed
-                0x080062f4        0xe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080062f4                USB_SetDevSpeed
- *fill*         0x08006302        0x2 
- .text.USB_DevInit
-                0x08006304      0x1a4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006304                USB_DevInit
- .text.USB_GetDevSpeed
-                0x080064a8       0x22 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080064a8                USB_GetDevSpeed
- .text.USB_EPStopXfer
-                0x080064ca       0xbe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080064ca                USB_EPStopXfer
- .text.USB_WritePacket
-                0x08006588       0x2e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006588                USB_WritePacket
- .text.USB_ReadPacket
-                0x080065b6       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080065b6                USB_ReadPacket
- .text.USB_DevDisconnect
-                0x080065fc       0x1c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080065fc                USB_DevDisconnect
- .text.USB_ReadInterrupts
-                0x08006618        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006618                USB_ReadInterrupts
- .text.USB_ReadDevAllOutEpInterrupt
-                0x08006620       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006620                USB_ReadDevAllOutEpInterrupt
- .text.USB_ReadDevAllInEpInterrupt
-                0x08006630       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006630                USB_ReadDevAllInEpInterrupt
- .text.USB_ReadDevOutEPInterrupt
-                0x08006640       0x12 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006640                USB_ReadDevOutEPInterrupt
- .text.USB_ReadDevInEPInterrupt
-                0x08006652       0x24 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006652                USB_ReadDevInEPInterrupt
- .text.USB_GetMode
-                0x08006676        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006676                USB_GetMode
- .text.USB_SetCurrentMode
-                0x0800667e       0x62 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x0800667e                USB_SetCurrentMode
- .text.USB_ActivateSetup
-                0x080066e0       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x080066e0                USB_ActivateSetup
- .text.USB_EP0_OutStart
-                0x08006700       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
-                0x08006700                USB_EP0_OutStart
  .text.SystemInit
-                0x08006760       0x44 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                0x08006760                SystemInit
+                0x08000dc0       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                0x08000dc0                SystemInit
+ .text.hwInit   0x08000e04        0xe CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+                0x08000e04                hwInit
+ *fill*         0x08000e12        0x2 
+ .text.HAL_InitTick
+                0x08000e14       0xac CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000e14                HAL_InitTick
+ .text.HAL_Init
+                0x08000ec0       0x54 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000ec0                HAL_Init
+ .text.HAL_IncTick
+                0x08000f14       0x18 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000f14                HAL_IncTick
+ .text.HAL_GetTick
+                0x08000f2c        0xc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000f2c                HAL_GetTick
+ .text.HAL_Delay
+                0x08000f38       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000f38                HAL_Delay
+ .text.HAL_SYSCFG_EnableOTGPHY
+                0x08000f60       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000f60                HAL_SYSCFG_EnableOTGPHY
+ .text.HAL_SYSCFG_SetOTGPHYReferenceClockSelection
+                0x08000f74       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x08000f74                HAL_SYSCFG_SetOTGPHYReferenceClockSelection
+ .text.__NVIC_EnableIRQ
+                0x08000f88       0x1c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .text.__NVIC_SetPriority
+                0x08000fa4       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .text.NVIC_EncodePriority
+                0x08000fcc       0x3e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ *fill*         0x0800100a        0x2 
+ .text.HAL_NVIC_SetPriorityGrouping
+                0x0800100c       0x24 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x0800100c                HAL_NVIC_SetPriorityGrouping
+ .text.HAL_NVIC_SetPriority
+                0x08001030       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x08001030                HAL_NVIC_SetPriority
+ .text.HAL_NVIC_EnableIRQ
+                0x08001050        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x08001050                HAL_NVIC_EnableIRQ
+ .text.HAL_SYSTICK_Config
+                0x08001058       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x08001058                HAL_SYSTICK_Config
+ .text.HAL_SYSTICK_CLKSourceConfig
+                0x08001078       0x7c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x08001078                HAL_SYSTICK_CLKSourceConfig
+ .text.HAL_SYSTICK_GetCLKSourceConfig
+                0x080010f4       0x34 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x080010f4                HAL_SYSTICK_GetCLKSourceConfig
+ .text.DMA_Init
+                0x08001128      0x344 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .text.HAL_DMA_Init
+                0x0800146c       0x5e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x0800146c                HAL_DMA_Init
+ .text.HAL_DMA_ConfigChannelAttributes
+                0x080014ca       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x080014ca                HAL_DMA_ConfigChannelAttributes
+ .text.DMA_List_Init
+                0x08001510      0x1b0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .text.HAL_DMAEx_List_Init
+                0x080016c0       0x5e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+                0x080016c0                HAL_DMAEx_List_Init
+ *fill*         0x0800171e        0x2 
+ .text.HAL_GPIO_Init
+                0x08001720      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x08001720                HAL_GPIO_Init
+ .text.HAL_GPIO_WritePin
+                0x0800193c        0xa CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x0800193c                HAL_GPIO_WritePin
+ *fill*         0x08001946        0x2 
+ .text.HAL_ICACHE_Enable
+                0x08001948       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+                0x08001948                HAL_ICACHE_Enable
+ .text.PCD_WriteEmptyTxFifo
+                0x0800195c       0xd0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .text.HAL_PCD_Init
+                0x08001a2c      0x102 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001a2c                HAL_PCD_Init
+ .text.HAL_PCD_DataOutStageCallback
+                0x08001b2e        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001b2e                HAL_PCD_DataOutStageCallback
+ .text.PCD_EP_OutXfrComplete_int
+                0x08001b30      0x104 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .text.HAL_PCD_DataInStageCallback
+                0x08001c34        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c34                HAL_PCD_DataInStageCallback
+ .text.HAL_PCD_SetupStageCallback
+                0x08001c36        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c36                HAL_PCD_SetupStageCallback
+ .text.PCD_EP_OutSetupPacket_int
+                0x08001c38       0x50 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .text.HAL_PCD_SOFCallback
+                0x08001c88        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c88                HAL_PCD_SOFCallback
+ .text.HAL_PCD_ResetCallback
+                0x08001c8a        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c8a                HAL_PCD_ResetCallback
+ .text.HAL_PCD_SuspendCallback
+                0x08001c8c        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c8c                HAL_PCD_SuspendCallback
+ .text.HAL_PCD_ResumeCallback
+                0x08001c8e        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c8e                HAL_PCD_ResumeCallback
+ .text.HAL_PCD_ISOOUTIncompleteCallback
+                0x08001c90        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c90                HAL_PCD_ISOOUTIncompleteCallback
+ .text.HAL_PCD_ISOINIncompleteCallback
+                0x08001c92        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c92                HAL_PCD_ISOINIncompleteCallback
+ .text.HAL_PCD_ConnectCallback
+                0x08001c94        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c94                HAL_PCD_ConnectCallback
+ .text.HAL_PCD_DisconnectCallback
+                0x08001c96        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c96                HAL_PCD_DisconnectCallback
+ .text.HAL_PCD_EP_Abort
+                0x08001c98       0x34 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001c98                HAL_PCD_EP_Abort
+ .text.HAL_PCD_IRQHandler
+                0x08001ccc      0x5fe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x08001ccc                HAL_PCD_IRQHandler
+ .text.HAL_PCDEx_ActivateLPM
+                0x080022ca       0x26 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x080022ca                HAL_PCDEx_ActivateLPM
+ .text.HAL_PCDEx_LPM_Callback
+                0x080022f0        0x2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x080022f0                HAL_PCDEx_LPM_Callback
+ *fill*         0x080022f2        0x2 
+ .text.HAL_PWREx_ControlVoltageScaling
+                0x080022f4       0xa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x080022f4                HAL_PWREx_ControlVoltageScaling
+ .text.HAL_PWREx_GetVoltageRange
+                0x08002394       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x08002394                HAL_PWREx_GetVoltageRange
+ .text.HAL_PWREx_ConfigSupply
+                0x080023a4       0x6c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x080023a4                HAL_PWREx_ConfigSupply
+ .text.HAL_PWREx_EnableVddUSB
+                0x08002410       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x08002410                HAL_PWREx_EnableVddUSB
+ .text.HAL_PWREx_EnableVddIO2
+                0x08002420       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x08002420                HAL_PWREx_EnableVddIO2
+ .text.HAL_PWREx_EnableUSBHSTranceiverSupply
+                0x08002430       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x08002430                HAL_PWREx_EnableUSBHSTranceiverSupply
+ .text.HAL_PWREx_DisableUCPDDeadBattery
+                0x08002458       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x08002458                HAL_PWREx_DisableUCPDDeadBattery
+ .text.RCC_SetFlashLatencyFromMSIRange
+                0x08002468       0xc4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .text.HAL_RCC_GetSysClockFreq
+                0x0800252c      0x17c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x0800252c                HAL_RCC_GetSysClockFreq
+ .text.HAL_RCC_ClockConfig
+                0x080026a8      0x30c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x080026a8                HAL_RCC_ClockConfig
+ .text.HAL_RCC_GetHCLKFreq
+                0x080029b4       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x080029b4                HAL_RCC_GetHCLKFreq
+ .text.HAL_RCC_OscConfig
+                0x080029dc      0xaa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x080029dc                HAL_RCC_OscConfig
+ .text.HAL_RCC_GetPCLK1Freq
+                0x0800347c       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x0800347c                HAL_RCC_GetPCLK1Freq
+ .text.HAL_RCC_GetPCLK2Freq
+                0x0800349c       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x0800349c                HAL_RCC_GetPCLK2Freq
+ .text.HAL_RCC_GetPCLK3Freq
+                0x080034bc       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x080034bc                HAL_RCC_GetPCLK3Freq
+ .text.RCCEx_PLL3_Config
+                0x080034dc       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .text.RCCEx_PLL2_Config
+                0x080035c0       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .text.HAL_RCCEx_PeriphCLKConfig
+                0x080036a4      0x79c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x080036a4                HAL_RCCEx_PeriphCLKConfig
+ .text.HAL_RCCEx_GetPLL1ClockFreq
+                0x08003e40      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x08003e40                HAL_RCCEx_GetPLL1ClockFreq
+ .text.HAL_RCCEx_GetPLL2ClockFreq
+                0x0800405c      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x0800405c                HAL_RCCEx_GetPLL2ClockFreq
+ .text.HAL_RCCEx_GetPLL3ClockFreq
+                0x08004278      0x21c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x08004278                HAL_RCCEx_GetPLL3ClockFreq
+ .text.HAL_RCCEx_GetPeriphCLKFreq
+                0x08004494     0x122c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x08004494                HAL_RCCEx_GetPeriphCLKFreq
+ .text.TIM_TI1_ConfigInputStage
+                0x080056c0       0x26 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .text.TIM_TI2_ConfigInputStage
+                0x080056e6       0x28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .text.TIM_ITRx_SetConfig
+                0x0800570e       0x14 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ *fill*         0x08005722        0x2 
+ .text.TIM_Base_SetConfig
+                0x08005724      0x16c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x08005724                TIM_Base_SetConfig
+ .text.HAL_TIM_Base_Init
+                0x08005890       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x08005890                HAL_TIM_Base_Init
+ .text.TIM_ETR_SetConfig
+                0x080058f0       0x1a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x080058f0                TIM_ETR_SetConfig
+ *fill*         0x0800590a        0x2 
+ .text.HAL_TIM_ConfigClockSource
+                0x0800590c      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x0800590c                HAL_TIM_ConfigClockSource
+ .text.HAL_TIMEx_MasterConfigSynchronization
+                0x08005a4c       0xe8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+                0x08005a4c                HAL_TIMEx_MasterConfigSynchronization
+ .text.UART_EndRxTransfer
+                0x08005b34       0x56 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ *fill*         0x08005b8a        0x2 
+ .text.UART_SetConfig
+                0x08005b8c      0x1e4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08005b8c                UART_SetConfig
+ .text.UART_AdvFeatureConfig
+                0x08005d70       0xca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08005d70                UART_AdvFeatureConfig
+ .text.UART_WaitOnFlagUntilTimeout
+                0x08005e3a       0x9e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08005e3a                UART_WaitOnFlagUntilTimeout
+ .text.UART_CheckIdleState
+                0x08005ed8       0xca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08005ed8                UART_CheckIdleState
+ .text.HAL_UART_Init
+                0x08005fa2       0x66 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08005fa2                HAL_UART_Init
+ .text.UARTEx_SetNbDataToProcess
+                0x08006008       0x4c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .text.HAL_UARTEx_DisableFifoMode
+                0x08006054       0x3e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x08006054                HAL_UARTEx_DisableFifoMode
+ .text.HAL_UARTEx_SetTxFifoThreshold
+                0x08006092       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x08006092                HAL_UARTEx_SetTxFifoThreshold
+ .text.HAL_UARTEx_SetRxFifoThreshold
+                0x080060dc       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x080060dc                HAL_UARTEx_SetRxFifoThreshold
+ .text.USB_CoreReset
+                0x08006126       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+ .text.USB_CoreInit
+                0x08006170       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006170                USB_CoreInit
+ *fill*         0x080061b6        0x2 
+ .text.USB_SetTurnaroundTime
+                0x080061b8       0xe4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080061b8                USB_SetTurnaroundTime
+ .text.USB_DisableGlobalInt
+                0x0800629c        0xc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x0800629c                USB_DisableGlobalInt
+ .text.USB_FlushTxFifo
+                0x080062a8       0x4a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080062a8                USB_FlushTxFifo
+ .text.USB_FlushRxFifo
+                0x080062f2       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080062f2                USB_FlushRxFifo
+ .text.USB_SetDevSpeed
+                0x08006338        0xe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006338                USB_SetDevSpeed
+ *fill*         0x08006346        0x2 
+ .text.USB_DevInit
+                0x08006348      0x1a4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006348                USB_DevInit
+ .text.USB_GetDevSpeed
+                0x080064ec       0x22 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080064ec                USB_GetDevSpeed
+ .text.USB_EPStopXfer
+                0x0800650e       0xbe CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x0800650e                USB_EPStopXfer
+ .text.USB_WritePacket
+                0x080065cc       0x2e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080065cc                USB_WritePacket
+ .text.USB_ReadPacket
+                0x080065fa       0x46 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080065fa                USB_ReadPacket
+ .text.USB_DevDisconnect
+                0x08006640       0x1c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006640                USB_DevDisconnect
+ .text.USB_ReadInterrupts
+                0x0800665c        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x0800665c                USB_ReadInterrupts
+ .text.USB_ReadDevAllOutEpInterrupt
+                0x08006664       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006664                USB_ReadDevAllOutEpInterrupt
+ .text.USB_ReadDevAllInEpInterrupt
+                0x08006674       0x10 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006674                USB_ReadDevAllInEpInterrupt
+ .text.USB_ReadDevOutEPInterrupt
+                0x08006684       0x12 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006684                USB_ReadDevOutEPInterrupt
+ .text.USB_ReadDevInEPInterrupt
+                0x08006696       0x24 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006696                USB_ReadDevInEPInterrupt
+ .text.USB_GetMode
+                0x080066ba        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080066ba                USB_GetMode
+ .text.USB_SetCurrentMode
+                0x080066c2       0x62 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x080066c2                USB_SetCurrentMode
+ .text.USB_ActivateSetup
+                0x08006724       0x20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006724                USB_ActivateSetup
+ .text.USB_EP0_OutStart
+                0x08006744       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x08006744                USB_EP0_OutStart
  *(.glue_7)
  .glue_7        0x080067a4        0x0 linker stubs
  *(.glue_7t)
@@ -5873,24 +5873,24 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x080067bc                        . = ALIGN (0x4)
  *(.rodata)
  *(.rodata*)
- .rodata.LPGPIO_Map
-                0x080067bc       0x80 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .rodata.UARTPrescTable
-                0x0800683c       0x18 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x0800683c                UARTPrescTable
- .rodata.denominator.0
-                0x08006854        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .rodata.numerator.1
-                0x0800685c        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .rodata.MSIRangeTable
-                0x08006864       0x40 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                0x08006864                MSIRangeTable
+                0x080067bc       0x40 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                0x080067bc                MSIRangeTable
  .rodata.APBPrescTable
-                0x080068a4        0x8 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                0x080068a4                APBPrescTable
+                0x080067fc        0x8 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                0x080067fc                APBPrescTable
  .rodata.AHBPrescTable
-                0x080068ac       0x10 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                0x080068ac                AHBPrescTable
+                0x08006804       0x10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                0x08006804                AHBPrescTable
+ .rodata.LPGPIO_Map
+                0x08006814       0x80 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .rodata.UARTPrescTable
+                0x08006894       0x18 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x08006894                UARTPrescTable
+ .rodata.denominator.0
+                0x080068ac        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .rodata.numerator.1
+                0x080068b4        0x8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
                 0x080068bc                        . = ALIGN (0x4)
 
 .ARM.extab      0x080068bc        0x0
@@ -5945,16 +5945,16 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .data.__atexit_recursive_mutex
                 0x20000000        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-__call_atexit.o)
                 0x20000000                __atexit_recursive_mutex
- .data.uwTickFreq
-                0x20000004        0x1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x20000004                uwTickFreq
- *fill*         0x20000005        0x3 
- .data.uwTickPrio
-                0x20000008        0x4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
-                0x20000008                uwTickPrio
  .data.SystemCoreClock
-                0x2000000c        0x4 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                0x2000000c                SystemCoreClock
+                0x20000004        0x4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                0x20000004                SystemCoreClock
+ .data.uwTickFreq
+                0x20000008        0x1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x20000008                uwTickFreq
+ *fill*         0x20000009        0x3 
+ .data.uwTickPrio
+                0x2000000c        0x4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x2000000c                uwTickPrio
  *(.RamFunc)
  *(.RamFunc*)
                 0x20000010                        . = ALIGN (0x4)
@@ -6049,41 +6049,41 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .ARM.attributes
                 0x000002b8       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
  .ARM.attributes
-                0x000002f2       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+                0x000002f2       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .ARM.attributes
-                0x0000032c       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x0000032c       0x3a CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .ARM.attributes
-                0x00000366       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x00000366       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
  .ARM.attributes
-                0x000003a0       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x000003a0       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
  .ARM.attributes
-                0x000003da       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+                0x000003da       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
  .ARM.attributes
-                0x00000414       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x00000414       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
  .ARM.attributes
-                0x0000044e       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+                0x0000044e       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
  .ARM.attributes
-                0x00000488       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x00000488       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
  .ARM.attributes
-                0x000004c2       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x000004c2       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
  .ARM.attributes
-                0x000004fc       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x000004fc       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
  .ARM.attributes
-                0x00000536       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x00000536       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
  .ARM.attributes
-                0x00000570       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x00000570       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
  .ARM.attributes
-                0x000005aa       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x000005aa       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
  .ARM.attributes
-                0x000005e4       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+                0x000005e4       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
  .ARM.attributes
-                0x0000061e       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x0000061e       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
  .ARM.attributes
-                0x00000658       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x00000658       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
  .ARM.attributes
-                0x00000692       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x00000692       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .ARM.attributes
-                0x000006cc       0x3a CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+                0x000006cc       0x3a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
  .ARM.attributes
                 0x00000706       0x26 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
@@ -6110,24 +6110,24 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_frame   0x00000208      0x16c CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
  .debug_frame   0x00000374       0xd0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .debug_frame   0x00000444       0xf0 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
- .debug_frame   0x00000534       0x28 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
- .debug_frame   0x0000055c      0x368 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
- .debug_frame   0x000008c4      0x254 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .debug_frame   0x00000b18      0x1bc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .debug_frame   0x00000cd4      0x6f0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .debug_frame   0x000013c4      0x128 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .debug_frame   0x000014ec      0x168 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
- .debug_frame   0x00001654      0x378 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .debug_frame   0x000019cc       0xb8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
- .debug_frame   0x00001a84      0x460 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
- .debug_frame   0x00001ee4      0x204 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .debug_frame   0x000020e8      0x374 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .debug_frame   0x0000245c      0xb80 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .debug_frame   0x00002fdc      0x640 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
- .debug_frame   0x0000361c      0x684 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- .debug_frame   0x00003ca0      0x204 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .debug_frame   0x00003ea4      0x494 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .debug_frame   0x00004338       0x3c CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+ .debug_frame   0x00000534       0x3c CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_frame   0x00000570       0x28 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_frame   0x00000598      0x368 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_frame   0x00000900      0x254 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_frame   0x00000b54      0x1bc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_frame   0x00000d10      0x6f0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_frame   0x00001400      0x128 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_frame   0x00001528      0x168 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_frame   0x00001690      0x378 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_frame   0x00001a08       0xb8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_frame   0x00001ac0      0x460 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_frame   0x00001f20      0x204 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_frame   0x00002124      0x374 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_frame   0x00002498      0xb80 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_frame   0x00003018      0x640 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_frame   0x00003658      0x684 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_frame   0x00003cdc      0x204 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_frame   0x00003ee0      0x494 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
  .debug_frame   0x00004374       0x2c /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_aeabi_uldivmod.o)
  .debug_frame   0x000043a0       0x38 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
 
@@ -6137,24 +6137,24 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_info    0x00000103     0x25c3 CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
  .debug_info    0x000026c6     0x220f CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .debug_info    0x000048d5      0xb4d CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
- .debug_info    0x00005422      0x164 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
- .debug_info    0x00005586     0x1568 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
- .debug_info    0x00006aee     0x18ca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .debug_info    0x000083b8      0xc8d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .debug_info    0x00009045     0x252a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .debug_info    0x0000b56f      0x92e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .debug_info    0x0000be9d      0x580 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
- .debug_info    0x0000c41d     0x1bfa CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .debug_info    0x0000e017      0xa0d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
- .debug_info    0x0000ea24     0x1049 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
- .debug_info    0x0000fa6d     0x1688 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .debug_info    0x000110f5     0x1d20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .debug_info    0x00012e15     0x40e7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .debug_info    0x00016efc     0x2630 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
- .debug_info    0x0001952c     0x5eac CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- .debug_info    0x0001f3d8     0x1478 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .debug_info    0x00020850     0x1f81 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .debug_info    0x000227d1      0x951 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+ .debug_info    0x00005422      0x951 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_info    0x00005d73      0x164 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_info    0x00005ed7     0x1568 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_info    0x0000743f     0x18ca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_info    0x00008d09      0xc8d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_info    0x00009996     0x252a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_info    0x0000bec0      0x92e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_info    0x0000c7ee      0x580 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_info    0x0000cd6e     0x1bfa CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_info    0x0000e968      0xa0d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_info    0x0000f375     0x1049 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_info    0x000103be     0x1688 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_info    0x00011a46     0x1d20 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_info    0x00013766     0x40e7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_info    0x0001784d     0x2630 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_info    0x00019e7d     0x5eac CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_info    0x0001fd29     0x1478 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_info    0x000211a1     0x1f81 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
 .debug_abbrev   0x00000000     0x3623
  .debug_abbrev  0x00000000       0x66 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
@@ -6162,24 +6162,24 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_abbrev  0x0000008a      0x351 CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
  .debug_abbrev  0x000003db      0x2f9 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .debug_abbrev  0x000006d4      0x1e4 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
- .debug_abbrev  0x000008b8       0xee CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
- .debug_abbrev  0x000009a6      0x2ae CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
- .debug_abbrev  0x00000c54      0x38b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .debug_abbrev  0x00000fdf      0x229 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .debug_abbrev  0x00001208      0x246 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .debug_abbrev  0x0000144e      0x2ae CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .debug_abbrev  0x000016fc      0x21e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
- .debug_abbrev  0x0000191a      0x2dc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .debug_abbrev  0x00001bf6      0x2b4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
- .debug_abbrev  0x00001eaa      0x22f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
- .debug_abbrev  0x000020d9      0x2a3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .debug_abbrev  0x0000237c      0x25f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .debug_abbrev  0x000025db      0x2bb CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .debug_abbrev  0x00002896      0x2b5 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
- .debug_abbrev  0x00002b4b      0x33a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- .debug_abbrev  0x00002e85      0x347 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .debug_abbrev  0x000031cc      0x328 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .debug_abbrev  0x000034f4      0x12f CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+ .debug_abbrev  0x000008b8      0x12f CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_abbrev  0x000009e7       0xee CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_abbrev  0x00000ad5      0x2ae CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_abbrev  0x00000d83      0x38b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_abbrev  0x0000110e      0x229 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_abbrev  0x00001337      0x246 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_abbrev  0x0000157d      0x2ae CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_abbrev  0x0000182b      0x21e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_abbrev  0x00001a49      0x2dc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_abbrev  0x00001d25      0x2b4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_abbrev  0x00001fd9      0x22f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_abbrev  0x00002208      0x2a3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_abbrev  0x000024ab      0x25f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_abbrev  0x0000270a      0x2bb CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_abbrev  0x000029c5      0x2b5 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_abbrev  0x00002c7a      0x33a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_abbrev  0x00002fb4      0x347 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_abbrev  0x000032fb      0x328 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
 .debug_aranges  0x00000000     0x18a0
  .debug_aranges
@@ -6193,41 +6193,41 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_aranges
                 0x00000118       0x78 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
  .debug_aranges
-                0x00000190       0x20 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+                0x00000190       0x28 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .debug_aranges
-                0x000001b0      0x1a8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x000001b8       0x20 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .debug_aranges
-                0x00000358      0x110 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x000001d8      0x1a8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
  .debug_aranges
-                0x00000468       0xa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x00000380      0x110 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
  .debug_aranges
-                0x00000508      0x1a0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+                0x00000490       0xa0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
  .debug_aranges
-                0x000006a8       0x78 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x00000530      0x1a0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
  .debug_aranges
-                0x00000720       0xa8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+                0x000006d0       0x78 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
  .debug_aranges
-                0x000007c8      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x00000748       0xa8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
  .debug_aranges
-                0x00000908       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x000007f0      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
  .debug_aranges
-                0x00000968      0x230 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x00000930       0x60 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
  .debug_aranges
-                0x00000b98       0xa8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x00000990      0x230 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
  .debug_aranges
-                0x00000c40      0x160 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x00000bc0       0xa8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
  .debug_aranges
-                0x00000da0      0x3e8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x00000c68      0x160 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
  .debug_aranges
-                0x00001188      0x250 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+                0x00000dc8      0x3e8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
  .debug_aranges
-                0x000013d8      0x248 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x000011b0      0x250 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
  .debug_aranges
-                0x00001620       0xb8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x00001400      0x248 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
  .debug_aranges
-                0x000016d8      0x1a0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x00001648       0xb8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .debug_aranges
-                0x00001878       0x28 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+                0x00001700      0x1a0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
 .debug_rnglists
                 0x00000000     0x1396
@@ -6242,41 +6242,41 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_rnglists
                 0x000000c3       0x55 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
  .debug_rnglists
-                0x00000118       0x13 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+                0x00000118       0x1a CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .debug_rnglists
-                0x0000012b      0x13a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x00000132       0x13 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .debug_rnglists
-                0x00000265       0xc7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x00000145      0x13a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
  .debug_rnglists
-                0x0000032c       0x78 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x0000027f       0xc7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
  .debug_rnglists
-                0x000003a4      0x167 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+                0x00000346       0x78 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
  .debug_rnglists
-                0x0000050b       0x6f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x000003be      0x167 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
  .debug_rnglists
-                0x0000057a       0x79 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+                0x00000525       0x6f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
  .debug_rnglists
-                0x000005f3       0xf1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x00000594       0x79 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
  .debug_rnglists
-                0x000006e4       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x0000060d       0xf1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
  .debug_rnglists
-                0x00000728      0x1a9 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x000006fe       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
  .debug_rnglists
-                0x000008d1       0xef CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x00000742      0x1a9 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
  .debug_rnglists
-                0x000009c0      0x125 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x000008eb       0xef CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
  .debug_rnglists
-                0x00000ae5      0x31e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x000009da      0x125 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
  .debug_rnglists
-                0x00000e03      0x1ce CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+                0x00000aff      0x31e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
  .debug_rnglists
-                0x00000fd1      0x1d8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x00000e1d      0x1ce CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
  .debug_rnglists
-                0x000011a9       0x93 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x00000feb      0x1d8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
  .debug_rnglists
-                0x0000123c      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x000011c3       0x93 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .debug_rnglists
-                0x0000137c       0x1a CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+                0x00001256      0x140 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
 .debug_macro    0x00000000    0x37eea
  .debug_macro   0x00000000      0x363 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
@@ -6352,51 +6352,51 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_macro   0x00034523       0xdc CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
  .debug_macro   0x000345ff      0x363 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .debug_macro   0x00034962      0x36d CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
- .debug_macro   0x00034ccf      0x35f CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
- .debug_macro   0x0003502e      0x2b0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
- .debug_macro   0x000352de      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .debug_macro   0x0003556a      0x28d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .debug_macro   0x000357f7      0x28d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .debug_macro   0x00035a84      0x2c1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .debug_macro   0x00035d45      0x2be CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
- .debug_macro   0x00036003      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .debug_macro   0x0003629b      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
- .debug_macro   0x00036527      0x2be CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
- .debug_macro   0x000367e5      0x392 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .debug_macro   0x00036b77      0x3df CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .debug_macro   0x00036f56      0x294 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .debug_macro   0x000371ea      0x292 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
- .debug_macro   0x0003747c      0x2b7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- .debug_macro   0x00037733      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .debug_macro   0x000379cb      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .debug_macro   0x00037c57      0x293 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+ .debug_macro   0x00034ccf      0x293 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_macro   0x00034f62      0x35f CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_macro   0x000352c1      0x2b0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_macro   0x00035571      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_macro   0x000357fd      0x28d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_macro   0x00035a8a      0x28d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_macro   0x00035d17      0x2c1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_macro   0x00035fd8      0x2be CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_macro   0x00036296      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_macro   0x0003652e      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_macro   0x000367ba      0x2be CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_macro   0x00036a78      0x392 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_macro   0x00036e0a      0x3df CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_macro   0x000371e9      0x294 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_macro   0x0003747d      0x292 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_macro   0x0003770f      0x2b7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_macro   0x000379c6      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_macro   0x00037c5e      0x28c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
-.debug_line     0x00000000    0x26b4e
- .debug_line    0x00000000      0x836 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
- .debug_line    0x00000836       0x7b CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
- .debug_line    0x000008b1      0xd3f CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
- .debug_line    0x000015f0      0xb1d CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
- .debug_line    0x0000210d      0x9d1 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
- .debug_line    0x00002ade      0x7f4 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
- .debug_line    0x000032d2      0xdad CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
- .debug_line    0x0000407f      0xe85 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
- .debug_line    0x00004f04     0x156c CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
- .debug_line    0x00006470     0x36d2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
- .debug_line    0x00009b42      0xef6 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
- .debug_line    0x0000aa38      0xac2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
- .debug_line    0x0000b4fa     0x1a35 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
- .debug_line    0x0000cf2f      0x9dc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
- .debug_line    0x0000d90b     0x15cd CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
- .debug_line    0x0000eed8     0x1ad8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
- .debug_line    0x000109b0     0x308f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
- .debug_line    0x00013a3f     0x5ba7 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
- .debug_line    0x000195e6     0x2c24 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
- .debug_line    0x0001c20a     0x682a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
- .debug_line    0x00022a34     0x1334 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
- .debug_line    0x00023d68     0x2547 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .debug_line    0x000262af      0x89f CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+.debug_line     0x00000000    0x26cd7
+ .debug_line    0x00000000      0x875 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
+ .debug_line    0x00000875       0x7b CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
+ .debug_line    0x000008f0      0xd7e CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
+ .debug_line    0x0000166e      0xb5c CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
+ .debug_line    0x000021ca      0xa10 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
+ .debug_line    0x00002bda      0x8ad CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+ .debug_line    0x00003487      0x833 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_line    0x00003cba      0xdb1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_line    0x00004a6b      0xe89 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_line    0x000058f4     0x1570 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_line    0x00006e64     0x36d6 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_line    0x0000a53a      0xefa CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_line    0x0000b434      0xac6 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_line    0x0000befa     0x1a39 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_line    0x0000d933      0x9e0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_line    0x0000e313     0x15d1 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_line    0x0000f8e4     0x1adc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_line    0x000113c0     0x3093 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_line    0x00014453     0x5bab CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_line    0x00019ffe     0x2c28 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_line    0x0001cc26     0x682e CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_line    0x00023454     0x1338 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_line    0x0002478c     0x254b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
 
-.debug_str      0x00000000   0x15e40b
+.debug_str      0x00000000   0x15e415
  .debug_str     0x00000000   0x152026 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
                              0x152b4c (size before relaxing)
  .debug_str     0x00152026       0x71 CMakeFiles/smt32u5a5.dir/Startup/startup_stm32u5a5zjtxq.s.obj
@@ -6407,42 +6407,42 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                              0x15489e (size before relaxing)
  .debug_str     0x00154147      0x16e CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
                              0x153440 (size before relaxing)
- .debug_str     0x001542b5       0x90 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
+ .debug_str     0x001542b5      0x1ff CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
+                             0x15202e (size before relaxing)
+ .debug_str     0x001544b4       0x90 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
                              0x152ba1 (size before relaxing)
- .debug_str     0x00154345      0x9b3 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_str     0x00154544      0x995 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
                              0x1531ef (size before relaxing)
- .debug_str     0x00154cf8      0x504 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_str     0x00154ed9      0x40f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
                              0x152cf4 (size before relaxing)
- .debug_str     0x001551fc      0x338 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_str     0x001552e8      0x338 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
                              0x1523b0 (size before relaxing)
- .debug_str     0x00155534      0x94d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_str     0x00155620      0x94d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
                              0x152a1c (size before relaxing)
- .debug_str     0x00155e81      0x319 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_str     0x00155f6d      0x319 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
                              0x152051 (size before relaxing)
- .debug_str     0x0015619a      0x6ca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_str     0x00156286      0x6ca CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
                              0x15234e (size before relaxing)
- .debug_str     0x00156864      0x83a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_str     0x00156950      0x83a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
                              0x152915 (size before relaxing)
- .debug_str     0x0015709e      0x1a8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_str     0x0015718a      0x1a8 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
                              0x1522b3 (size before relaxing)
- .debug_str     0x00157246      0x919 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_str     0x00157332      0x919 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
                              0x152870 (size before relaxing)
- .debug_str     0x00157b5f     0x136f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_str     0x00157c4b     0x1316 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
                              0x1537c5 (size before relaxing)
- .debug_str     0x00158ece     0x2a4b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_str     0x00158f61     0x2a4b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
                              0x154eb2 (size before relaxing)
- .debug_str     0x0015b919      0xf73 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_str     0x0015b9ac      0xf73 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
                              0x15346f (size before relaxing)
- .debug_str     0x0015c88c      0x97a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_str     0x0015c91f      0x97a CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
                              0x1530c6 (size before relaxing)
- .debug_str     0x0015d206      0x958 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_str     0x0015d299      0x958 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
                              0x152d04 (size before relaxing)
- .debug_str     0x0015db5e      0x340 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_str     0x0015dbf1      0x340 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
                              0x1527a5 (size before relaxing)
- .debug_str     0x0015de9e      0x4e4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+ .debug_str     0x0015df31      0x4e4 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
                              0x15280f (size before relaxing)
- .debug_str     0x0015e382       0x89 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
-                             0x152024 (size before relaxing)
 
 .comment        0x00000000       0x43
  .comment       0x00000000       0x43 CMakeFiles/smt32u5a5.dir/Src/main.c.obj
@@ -6450,6 +6450,7 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/bsp/bsp.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_it.c.obj
+ .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/hw/hw.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
@@ -6467,7 +6468,6 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
- .comment       0x00000043       0x44 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
 
 .debug_line_str
                 0x00000000       0x95
@@ -6481,36 +6481,36 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_loclists
                 0x00000023       0xa2 CMakeFiles/smt32u5a5.dir/Src/hw/driver/stm32u5xx_hal_msp.c.obj
  .debug_loclists
-                0x000000c5      0x185 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+                0x000000c5       0xc1 CMakeFiles/smt32u5a5.dir/Src/hw/driver/system_stm32u5xx.c.obj
  .debug_loclists
-                0x0000024a      0x4cc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+                0x00000186      0x185 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
  .debug_loclists
-                0x00000716      0x634 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+                0x0000030b      0x4cc CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
  .debug_loclists
-                0x00000d4a     0x16c0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+                0x000007d7      0x634 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
  .debug_loclists
-                0x0000240a      0x54d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x00000e0b     0x16c0 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
  .debug_loclists
-                0x00002957      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+                0x000024cb      0x54d CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
  .debug_loclists
-                0x00002bef      0xb59 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+                0x00002a18      0x298 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
  .debug_loclists
-                0x00003748      0x15b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+                0x00002cb0      0xb59 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
  .debug_loclists
-                0x000038a3      0xb1f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+                0x00003809      0x15b CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
  .debug_loclists
-                0x000043c2      0x8ad CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+                0x00003964      0xb1f CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
  .debug_loclists
-                0x00004c6f     0x1ee2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+                0x00004483      0x8ad CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
  .debug_loclists
-                0x00006b51     0x3c86 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+                0x00004d30     0x1ee2 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
  .debug_loclists
-                0x0000a7d7     0x1e32 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+                0x00006c12     0x3c86 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
  .debug_loclists
-                0x0000c609     0x3398 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x0000a898     0x1e32 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
  .debug_loclists
-                0x0000f9a1      0x803 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+                0x0000c6ca     0x3398 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
  .debug_loclists
-                0x000101a4     0x15ab CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+                0x0000fa62      0x803 CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
  .debug_loclists
-                0x0001174f       0xc1 CMakeFiles/smt32u5a5.dir/Src/system_stm32u5xx.c.obj
+                0x00010265     0x15ab CMakeFiles/smt32u5a5.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj

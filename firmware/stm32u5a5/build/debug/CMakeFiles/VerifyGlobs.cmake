@@ -6,9 +6,6 @@ cmake_policy(SET CMP0009 NEW)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/*.c")
 set(OLD_GLOB
   "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/main.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/syscall.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/sysmem.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/system_stm32u5xx.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -50,6 +47,9 @@ file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmw
 set(OLD_GLOB
   "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/stm32u5xx_hal_msp.c"
   "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/stm32u5xx_it.c"
+  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/syscall.c"
+  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/sysmem.c"
+  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/system_stm32u5xx.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

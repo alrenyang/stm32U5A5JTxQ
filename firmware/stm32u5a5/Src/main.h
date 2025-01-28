@@ -4,4 +4,6 @@
 #include "bsp.h"
 #include "hw.h"
 
+int main(void);
+
 #endif

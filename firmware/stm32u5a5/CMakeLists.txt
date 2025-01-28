@@ -85,6 +85,7 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
     # Src/main.c
     Src/bsp/bsp.c
     Src/*.c
+    Src/*.cpp
 )
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PUBLIC

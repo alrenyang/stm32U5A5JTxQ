@@ -5,7 +5,16 @@ cmake_policy(SET CMP0009 NEW)
 # SRC_FILES at CMakeLists.txt:78 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/*.c")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/main.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/*.cpp")
+set(OLD_GLOB
+  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

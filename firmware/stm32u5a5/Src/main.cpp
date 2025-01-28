@@ -15,12 +15,14 @@
  *
  ******************************************************************************
  */
-#include "main.h"
 
+#include "main.h"
 #include <stdint.h>
 
 int main(void)
 {
     bspInit();
     hwInit();
+
+    return 0;
 }

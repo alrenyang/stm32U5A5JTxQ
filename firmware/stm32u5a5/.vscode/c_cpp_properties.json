@@ -9,9 +9,19 @@
              * such as include paths, browse paths, defines, etc.
              */
             "name": "STM32",
+            "includePath": [
+                "../../..",
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
             "configurationProvider": "ms-vscode.cmake-tools",
             "cStandard": "c17",
-            "cppStandard": "gnu++14",
+            "cppStandard": "c++14",
+            // "cppStandard": "gnu++14",
             // "intelliSenseMode": "${default}",
             "intelliSenseMode": "windows-gcc-x86",
             "compileCommands": "build/compile_commands.json"

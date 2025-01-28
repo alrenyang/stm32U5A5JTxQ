@@ -23,8 +23,6 @@ set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS ON)
 set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -Wall -Wextra -Wno-implicit-function-declaration")
-
 
 # Core MCU flags, CPU type, instruction set and FPU setup
 set(cpu_PARAMS 
@@ -143,6 +141,8 @@ target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
     $<$<COMPILE_LANGUAGE:C>: >
     $<$<COMPILE_LANGUAGE:CXX>:
 
+    # Remove -Wimplicit-function-declaration for C++
+    # -Wno-implicit-function-declaration
     # -Wno-volatile
     # -Wold-style-cast
     # -Wuseless-cast
@@ -178,3 +178,5 @@ add_custom_command(TARGET ${CMAKE_PROJECT_NAME} POST_BUILD
     COMMAND ${CMAKE_OBJCOPY} -O ihex $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_PROJECT_NAME}.hex
     COMMAND ${CMAKE_OBJCOPY} -O binary $<TARGET_FILE:${CMAKE_PROJECT_NAME}> ${CMAKE_PROJECT_NAME}.bin
 )
+
+

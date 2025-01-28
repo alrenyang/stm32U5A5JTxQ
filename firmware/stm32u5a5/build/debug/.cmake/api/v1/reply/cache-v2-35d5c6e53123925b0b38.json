@@ -179,7 +179,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug"
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -691,7 +691,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5"
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1183,11 +1183,11 @@
 			[
 				{
 					"name" : "HELPSTRING",
-					"value" : "The CMake toolchain file"
+					"value" : "No help, variable specified on the command line."
 				}
 			],
-			"type" : "FILEPATH",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/cmake/gcc-arm-none-eabi.cmake"
+			"type" : "UNINITIALIZED",
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/cmake/gcc-arm-none-eabi.cmake"
 		},
 		{
 			"name" : "CMAKE_UNAME",
@@ -1227,7 +1227,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug"
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug"
 		},
 		{
 			"name" : "smt32u5a5_IS_TOP_LEVEL",
@@ -1251,7 +1251,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5"
+			"value" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5"
 		}
 	],
 	"kind" : "cache",

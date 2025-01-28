@@ -147,47 +147,47 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/CMSIS/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "C",
@@ -231,14 +231,7 @@
 				28,
 				29,
 				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				36,
-				37,
-				38
+				31
 			]
 		},
 		{
@@ -331,47 +324,47 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/CMSIS/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				}
 			],
 			"language" : "ASM",
@@ -396,7 +389,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-T/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/stm32u5a5zjtxq_FLASH.ld",
+				"fragment" : "-T/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/stm32u5a5zjtxq_FLASH.ld",
 				"role" : "flags"
 			},
 			{
@@ -491,7 +484,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-L/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5/smt32u5a5",
+				"fragment" : "-L/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/smt32u5a5",
 				"role" : "libraryPath"
 			}
 		],
@@ -540,14 +533,7 @@
 				28,
 				29,
 				30,
-				31,
-				32,
-				33,
-				34,
-				35,
-				36,
-				37,
-				38
+				31
 			]
 		},
 		{
@@ -593,30 +579,6 @@
 		{
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/gpdma.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/gpio.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/icache.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/memorymap.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
 			"path" : "Src/hw/driver/stm32u5xx_hal_msp.c",
 			"sourceGroupIndex" : 0
 		},
@@ -624,24 +586,6 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 0,
 			"path" : "Src/hw/driver/stm32u5xx_it.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/tim.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/usart.c",
-			"sourceGroupIndex" : 0
-		},
-		{
-			"backtrace" : 7,
-			"compileGroupIndex" : 0,
-			"path" : "Src/hw/driver/usb_otg.c",
 			"sourceGroupIndex" : 0
 		},
 		{

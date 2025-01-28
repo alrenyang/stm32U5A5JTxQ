@@ -30,43 +30,43 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 76,
+				"line" : 78,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 155,
+				"line" : 157,
 				"parent" : 0
 			},
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 73,
+				"line" : 75,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 133,
+				"line" : 135,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 117,
+				"line" : 119,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 97,
+				"line" : 99,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 91,
+				"line" : 93,
 				"parent" : 0
 			}
 		]
@@ -376,7 +376,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -g -std=gnu++20"
+					"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -Wall -Wextra -Wno-implicit-function-declaration -g -std=gnu++20"
 				},
 				{
 					"backtrace" : 4,
@@ -510,7 +510,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -g",
+				"fragment" : "-fdata-sections -ffunction-sections -Wl,--gc-sections -fno-rtti -fno-exceptions -fno-threadsafe-statics -Wall -Wextra -Wno-implicit-function-declaration -g",
 				"role" : "flags"
 			},
 			{

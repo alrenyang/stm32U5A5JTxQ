@@ -33,13 +33,13 @@ bool bspInit(void)
   SystemPower_Config();
   SystemClock_Config();
 
-  // MX_GPIO_Init();
-  // MX_GPDMA1_Init();
-  // MX_ICACHE_Init();
-  // MX_TIM2_Init();
-  // MX_TIM17_Init();
-  // MX_USART1_UART_Init();
-  // MX_USB_OTG_HS_PCD_Init();
+  MX_GPIO_Init();
+  MX_GPDMA1_Init();
+  MX_ICACHE_Init();
+  MX_TIM2_Init();
+  MX_TIM17_Init();
+  MX_USART1_UART_Init();
+  MX_USB_OTG_HS_PCD_Init();
 
   // __HAL_RCC_GPIOC_CLK_ENABLE();
   // __HAL_RCC_GPIOH_CLK_ENABLE();

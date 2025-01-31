@@ -2,25 +2,25 @@
 #include "hw_def.h"
 
 
-DMA_HandleTypeDef handle_GPDMA1_Channel13;
+// DMA_HandleTypeDef handle_GPDMA1_Channel13;
 
-TIM_HandleTypeDef htim2;
-TIM_HandleTypeDef htim17;
+// TIM_HandleTypeDef htim2;
+// TIM_HandleTypeDef htim17;
 
-UART_HandleTypeDef huart1;
-DMA_HandleTypeDef handle_GPDMA1_Channel0;
+// UART_HandleTypeDef huart1;
+// DMA_HandleTypeDef handle_GPDMA1_Channel0;
 
-PCD_HandleTypeDef hpcd_USB_OTG_HS;
+// PCD_HandleTypeDef hpcd_USB_OTG_HS;
 
 void SystemClock_Config(void);
 static void SystemPower_Config(void);
-static void MX_GPIO_Init(void);
-static void MX_GPDMA1_Init(void);
-static void MX_ICACHE_Init(void);
-static void MX_TIM2_Init(void);
-static void MX_TIM17_Init(void);
-static void MX_USART1_UART_Init(void);
-static void MX_USB_OTG_HS_PCD_Init(void);
+// static void MX_GPIO_Init(void);
+// static void MX_GPDMA1_Init(void);
+// static void MX_ICACHE_Init(void);
+// static void MX_TIM2_Init(void);
+// static void MX_TIM17_Init(void);
+// static void MX_USART1_UART_Init(void);
+// static void MX_USB_OTG_HS_PCD_Init(void);
 
 bool bspInit(void)
 {
@@ -33,13 +33,13 @@ bool bspInit(void)
   SystemPower_Config();
   SystemClock_Config();
 
-  MX_GPIO_Init();
-  MX_GPDMA1_Init();
-  MX_ICACHE_Init();
-  MX_TIM2_Init();
-  MX_TIM17_Init();
-  MX_USART1_UART_Init();
-  MX_USB_OTG_HS_PCD_Init();
+  // MX_GPIO_Init();
+  // MX_GPDMA1_Init();
+  // MX_ICACHE_Init();
+  // MX_TIM2_Init();
+  // MX_TIM17_Init();
+  // MX_USART1_UART_Init();
+  // MX_USB_OTG_HS_PCD_Init();
 
   // __HAL_RCC_GPIOC_CLK_ENABLE();
   // __HAL_RCC_GPIOH_CLK_ENABLE();
@@ -155,6 +155,7 @@ static void SystemPower_Config(void)
 /* USER CODE END PWR */
 }
 
+#if 0
 static void MX_GPDMA1_Init(void)
 {
 
@@ -463,3 +464,5 @@ static void MX_GPIO_Init(void)
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */
 }
+
+#endif

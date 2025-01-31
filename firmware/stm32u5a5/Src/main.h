@@ -3,6 +3,7 @@
 
 #include "bsp.h"
 #include "hw.h"
+#include "ap.h"
 
 int main(void);
 

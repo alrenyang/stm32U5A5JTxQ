@@ -78,14 +78,22 @@ add_executable(${CMAKE_PROJECT_NAME})
 file(GLOB SRC_FILES CONFIGURE_DEPENDS
     Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Source/Templates/*.c
     Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c
+    src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c
+    src/hw/driver/usb/*.c
+    src/hw/driver/usb/usb_cdc/*.c
+    src/hw/driver/usb/usb_hid/*.c
+    src/hw/driver/usb/usb_cmp/*c
     Src/bsp/*.c
-    # Src/bsp/device/*.c
+    Src/bsp/device/*.c
     Src/hw/*.c
     Src/hw/driver/*.c
+    Src/include/*.c
     # Src/main.c
     Src/bsp/bsp.c
     Src/*.c
     Src/*.cpp
+    Src/ap/*.c
+    Src/ap/*.cpp
 )
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PUBLIC
@@ -106,11 +114,19 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     Src/hw/inc
     Src/include
     Src/lib
+    Src/ap
 
+    src/hw/driver/usb
+    src/hw/driver/usb/usb_cdc
+    src/hw/driver/usb/usb_hid
+    src/hw/driver/usb/usb_cmp
+    src/hw/driver/keyboard
+    Src/bsp/device
     Src/lib/ST/CMSIS/Include
     Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy
+    src/lib/ST/STM32_USB_Device_Library/Core/Inc
 )
 
 # Add project symbols (macros)
@@ -135,7 +151,8 @@ target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
     ${compiler_OPTS}
     -Wall
     -Wextra
-    -Wpedantic
+    # -Wpedantic
+    -Wno-expansion-to-defined
     -Wno-unused-parameter
     -Wimplicit-function-declaration
     $<$<COMPILE_LANGUAGE:C>: >
@@ -152,6 +169,7 @@ target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
     $<$<CONFIG:Debug>:-Og -g3 -ggdb>
     $<$<CONFIG:Release>:-Og -g0>
 )
+
 
 # Linker options
 target_link_options(${CMAKE_PROJECT_NAME} PRIVATE

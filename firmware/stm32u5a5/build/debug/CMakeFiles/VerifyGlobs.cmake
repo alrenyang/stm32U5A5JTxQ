@@ -3,105 +3,208 @@
 cmake_policy(SET CMP0009 NEW)
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/*.c")
 set(OLD_GLOB
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/*.cpp")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/*.cpp")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/main.cpp"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/main.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/ap/*.c")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp/bsp.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp/bsp.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/ap/*.cpp")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/bsp/bsp.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/ap/ap.cpp"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/*.c")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/hw.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/bsp.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/bsp.c")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/stm32u5xx_hal_msp.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/stm32u5xx_it.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/syscall.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/sysmem.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/hw/driver/system_stm32u5xx.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/bsp.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Source/Templates/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/*.c")
 set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/stm32u5xx_hal_msp.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/stm32u5xx_it.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/syscall.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/sysmem.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/bsp/device/system_stm32u5xx.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
-file(GLOB NEW_GLOB LIST_DIRECTORIES true "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c")
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/*.c")
 set(OLD_GLOB
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c"
-  "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/hw.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
-  file(TOUCH_NOCREATE "/Users/alrenm3/program/stm32u5a5/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/button.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/cdc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/cli.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/keyscan.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/log.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/micros.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/hw/driver/uart.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/include/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/include/qbuffer.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/include/util.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Source/Templates/*.c")
+set(OLD_GLOB
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_exti.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_flash_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gtzc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_i2c_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usbd_conf.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cdc/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cdc/usbd_cdc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cdc/usbd_cdc_if.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cdc/usbd_desc.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cmp/*c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cmp/usbd_cmp.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_cmp/usbd_desc.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_hid/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_hid/usbd_desc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/hw/driver/usb/usb_hid/usbd_hid.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5/build/debug/CMakeFiles/cmake.verify_globs")
 endif()

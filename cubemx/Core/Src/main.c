@@ -43,10 +43,14 @@
 
 DMA_HandleTypeDef handle_GPDMA1_Channel13;
 
+RTC_HandleTypeDef hrtc;
+
 TIM_HandleTypeDef htim2;
 TIM_HandleTypeDef htim17;
 
 UART_HandleTypeDef huart1;
+DMA_NodeTypeDef Node_GPDMA1_Channel0;
+DMA_QListTypeDef List_GPDMA1_Channel0;
 DMA_HandleTypeDef handle_GPDMA1_Channel0;
 
 PCD_HandleTypeDef hpcd_USB_OTG_HS;
@@ -57,14 +61,14 @@ PCD_HandleTypeDef hpcd_USB_OTG_HS;
 
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
-static void SystemPower_Config(void);
 static void MX_GPIO_Init(void);
 static void MX_GPDMA1_Init(void);
+static void MX_USB_OTG_HS_PCD_Init(void);
+static void MX_RTC_Init(void);
 static void MX_ICACHE_Init(void);
+static void MX_USART1_UART_Init(void);
 static void MX_TIM2_Init(void);
 static void MX_TIM17_Init(void);
-static void MX_USART1_UART_Init(void);
-static void MX_USB_OTG_HS_PCD_Init(void);
 /* USER CODE BEGIN PFP */
 
 /* USER CODE END PFP */
@@ -94,9 +98,6 @@ int main(void)
 
   /* USER CODE END Init */
 
-  /* Configure the System Power */
-  SystemPower_Config();
-
   /* Configure the system clock */
   SystemClock_Config();
 
@@ -107,13 +108,15 @@ int main(void)
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
   MX_GPDMA1_Init();
+  MX_USB_OTG_HS_PCD_Init();
+  MX_RTC_Init();
   MX_ICACHE_Init();
+  MX_USART1_UART_Init();
   MX_TIM2_Init();
   MX_TIM17_Init();
-  MX_USART1_UART_Init();
-  MX_USB_OTG_HS_PCD_Init();
   /* USER CODE BEGIN 2 */
 
+  char message[] = "Hello World...\r\n";
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -121,7 +124,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
+	  HAL_UART_Transmit(&huart1, (uint8_t*)message, strlen(message), 0);
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
@@ -145,14 +148,16 @@ void SystemClock_Config(void)
 
   /** Initializes the CPU, AHB and APB buses clocks
   */
-  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSE;
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_LSI|RCC_OSCILLATORTYPE_HSE;
   RCC_OscInitStruct.HSEState = RCC_HSE_ON;
+  RCC_OscInitStruct.LSIState = RCC_LSI_ON;
+  RCC_OscInitStruct.LSIDiv = RCC_LSI_DIV1;
   RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
   RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSE;
   RCC_OscInitStruct.PLL.PLLMBOOST = RCC_PLLMBOOST_DIV1;
   RCC_OscInitStruct.PLL.PLLM = 1;
   RCC_OscInitStruct.PLL.PLLN = 10;
-  RCC_OscInitStruct.PLL.PLLP = 8;
+  RCC_OscInitStruct.PLL.PLLP = 2;
   RCC_OscInitStruct.PLL.PLLQ = 2;
   RCC_OscInitStruct.PLL.PLLR = 1;
   RCC_OscInitStruct.PLL.PLLRGE = RCC_PLLVCIRANGE_1;
@@ -180,30 +185,6 @@ void SystemClock_Config(void)
 }
 
 /**
-  * @brief Power Configuration
-  * @retval None
-  */
-static void SystemPower_Config(void)
-{
-  HAL_PWREx_EnableVddIO2();
-
-  /*
-   * Disable the internal Pull-Up in Dead Battery pins of UCPD peripheral
-   */
-  HAL_PWREx_DisableUCPDDeadBattery();
-
-  /*
-   * Switch to SMPS regulator instead of LDO
-   */
-  if (HAL_PWREx_ConfigSupply(PWR_SMPS_SUPPLY) != HAL_OK)
-  {
-    Error_Handler();
-  }
-/* USER CODE BEGIN PWR */
-/* USER CODE END PWR */
-}
-
-/**
   * @brief GPDMA1 Initialization Function
   * @param None
   * @retval None
@@ -228,7 +209,7 @@ static void MX_GPDMA1_Init(void)
 
   /* USER CODE END GPDMA1_Init 1 */
   handle_GPDMA1_Channel13.Instance = GPDMA1_Channel13;
-  handle_GPDMA1_Channel13.InitLinkedList.Priority = DMA_LOW_PRIORITY_LOW_WEIGHT;
+  handle_GPDMA1_Channel13.InitLinkedList.Priority = DMA_LOW_PRIORITY_HIGH_WEIGHT;
   handle_GPDMA1_Channel13.InitLinkedList.LinkStepMode = DMA_LSM_FULL_EXECUTION;
   handle_GPDMA1_Channel13.InitLinkedList.LinkAllocatedPort = DMA_LINK_ALLOCATED_PORT0;
   handle_GPDMA1_Channel13.InitLinkedList.TransferEventMode = DMA_TCEM_LAST_LL_ITEM_TRANSFER;
@@ -272,6 +253,81 @@ static void MX_ICACHE_Init(void)
   /* USER CODE BEGIN ICACHE_Init 2 */
 
   /* USER CODE END ICACHE_Init 2 */
+
+}
+
+/**
+  * @brief RTC Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_RTC_Init(void)
+{
+
+  /* USER CODE BEGIN RTC_Init 0 */
+
+  /* USER CODE END RTC_Init 0 */
+
+  RTC_PrivilegeStateTypeDef privilegeState = {0};
+  RTC_TimeTypeDef sTime = {0};
+  RTC_DateTypeDef sDate = {0};
+
+  /* USER CODE BEGIN RTC_Init 1 */
+
+  /* USER CODE END RTC_Init 1 */
+
+  /** Initialize RTC Only
+  */
+  hrtc.Instance = RTC;
+  hrtc.Init.HourFormat = RTC_HOURFORMAT_24;
+  hrtc.Init.AsynchPrediv = 127;
+  hrtc.Init.SynchPrediv = 255;
+  hrtc.Init.OutPut = RTC_OUTPUT_DISABLE;
+  hrtc.Init.OutPutRemap = RTC_OUTPUT_REMAP_NONE;
+  hrtc.Init.OutPutPolarity = RTC_OUTPUT_POLARITY_HIGH;
+  hrtc.Init.OutPutType = RTC_OUTPUT_TYPE_OPENDRAIN;
+  hrtc.Init.OutPutPullUp = RTC_OUTPUT_PULLUP_NONE;
+  hrtc.Init.BinMode = RTC_BINARY_NONE;
+  if (HAL_RTC_Init(&hrtc) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  privilegeState.rtcPrivilegeFull = RTC_PRIVILEGE_FULL_NO;
+  privilegeState.backupRegisterPrivZone = RTC_PRIVILEGE_BKUP_ZONE_NONE;
+  privilegeState.backupRegisterStartZone2 = RTC_BKP_DR0;
+  privilegeState.backupRegisterStartZone3 = RTC_BKP_DR0;
+  if (HAL_RTCEx_PrivilegeModeSet(&hrtc, &privilegeState) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /* USER CODE BEGIN Check_RTC_BKUP */
+
+  /* USER CODE END Check_RTC_BKUP */
+
+  /** Initialize RTC and set the Time and Date
+  */
+  sTime.Hours = 0x0;
+  sTime.Minutes = 0x0;
+  sTime.Seconds = 0x0;
+  sTime.DayLightSaving = RTC_DAYLIGHTSAVING_NONE;
+  sTime.StoreOperation = RTC_STOREOPERATION_RESET;
+  if (HAL_RTC_SetTime(&hrtc, &sTime, RTC_FORMAT_BCD) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  sDate.WeekDay = RTC_WEEKDAY_MONDAY;
+  sDate.Month = RTC_MONTH_JANUARY;
+  sDate.Date = 0x1;
+  sDate.Year = 0x0;
+
+  if (HAL_RTC_SetDate(&hrtc, &sDate, RTC_FORMAT_BCD) != HAL_OK)
+  {
+    Error_Handler();
+  }
+  /* USER CODE BEGIN RTC_Init 2 */
+
+  /* USER CODE END RTC_Init 2 */
 
 }
 
@@ -449,18 +505,11 @@ static void MX_GPIO_Init(void)
   /* GPIO Ports Clock Enable */
   __HAL_RCC_GPIOC_CLK_ENABLE();
   __HAL_RCC_GPIOH_CLK_ENABLE();
-  __HAL_RCC_GPIOB_CLK_ENABLE();
   __HAL_RCC_GPIOG_CLK_ENABLE();
   __HAL_RCC_GPIOA_CLK_ENABLE();
 
   /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED_RED_GPIO_Port, LED_RED_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(LED_GREEN_GPIO_Port, LED_GREEN_Pin, GPIO_PIN_RESET);
-
-  /*Configure GPIO pin Output Level */
-  HAL_GPIO_WritePin(GPIOB, UCPD_DBn_Pin|LED_BLUE_Pin, GPIO_PIN_RESET);
+  HAL_GPIO_WritePin(GPIOG, GPIO_PIN_2, GPIO_PIN_RESET);
 
   /*Configure GPIO pin : PC13 */
   GPIO_InitStruct.Pin = GPIO_PIN_13;
@@ -468,50 +517,16 @@ static void MX_GPIO_Init(void)
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : VBUS_SENSE_Pin */
-  GPIO_InitStruct.Pin = VBUS_SENSE_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(VBUS_SENSE_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : UCPD_FLT_Pin */
-  GPIO_InitStruct.Pin = UCPD_FLT_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(UCPD_FLT_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PB15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_15;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : LED_RED_Pin */
-  GPIO_InitStruct.Pin = LED_RED_Pin;
+  /*Configure GPIO pin : PG2 */
+  GPIO_InitStruct.Pin = GPIO_PIN_2;
   GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
   GPIO_InitStruct.Pull = GPIO_NOPULL;
   GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED_RED_GPIO_Port, &GPIO_InitStruct);
+  HAL_GPIO_Init(GPIOG, &GPIO_InitStruct);
 
-  /*Configure GPIO pin : LED_GREEN_Pin */
-  GPIO_InitStruct.Pin = LED_GREEN_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(LED_GREEN_GPIO_Port, &GPIO_InitStruct);
-
-  /*Configure GPIO pin : PA15 */
-  GPIO_InitStruct.Pin = GPIO_PIN_15;
-  GPIO_InitStruct.Mode = GPIO_MODE_ANALOG;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  HAL_GPIO_Init(GPIOA, &GPIO_InitStruct);
-
-  /*Configure GPIO pins : UCPD_DBn_Pin LED_BLUE_Pin */
-  GPIO_InitStruct.Pin = UCPD_DBn_Pin|LED_BLUE_Pin;
-  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
-  GPIO_InitStruct.Pull = GPIO_NOPULL;
-  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
-  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+  /* EXTI interrupt init*/
+  HAL_NVIC_SetPriority(EXTI13_IRQn, 6, 0);
+  HAL_NVIC_EnableIRQ(EXTI13_IRQn);
 
 /* USER CODE BEGIN MX_GPIO_Init_2 */
 /* USER CODE END MX_GPIO_Init_2 */

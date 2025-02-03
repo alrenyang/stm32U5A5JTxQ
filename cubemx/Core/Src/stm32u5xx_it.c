@@ -56,6 +56,8 @@
 
 /* External variables --------------------------------------------------------*/
 extern DMA_HandleTypeDef handle_GPDMA1_Channel13;
+extern DMA_NodeTypeDef Node_GPDMA1_Channel0;
+extern DMA_QListTypeDef List_GPDMA1_Channel0;
 extern DMA_HandleTypeDef handle_GPDMA1_Channel0;
 extern PCD_HandleTypeDef hpcd_USB_OTG_HS;
 /* USER CODE BEGIN EV */
@@ -199,6 +201,20 @@ void SysTick_Handler(void)
 /* For the available peripheral interrupt handler names,                      */
 /* please refer to the startup file (startup_stm32u5xx.s).                    */
 /******************************************************************************/
+
+/**
+  * @brief This function handles EXTI Line13 interrupt.
+  */
+void EXTI13_IRQHandler(void)
+{
+  /* USER CODE BEGIN EXTI13_IRQn 0 */
+
+  /* USER CODE END EXTI13_IRQn 0 */
+  HAL_GPIO_EXTI_IRQHandler(GPIO_PIN_13);
+  /* USER CODE BEGIN EXTI13_IRQn 1 */
+
+  /* USER CODE END EXTI13_IRQn 1 */
+}
 
 /**
   * @brief This function handles GPDMA1 Channel 0 global interrupt.

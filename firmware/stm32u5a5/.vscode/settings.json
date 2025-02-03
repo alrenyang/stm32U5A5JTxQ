@@ -1,7 +1,0 @@
-{
-    "files.associations": {
-        "usart.h": "c",
-        "main.h": "c"
-    },
-    "C_Cpp.errorSquiggles": "disabled"
-}

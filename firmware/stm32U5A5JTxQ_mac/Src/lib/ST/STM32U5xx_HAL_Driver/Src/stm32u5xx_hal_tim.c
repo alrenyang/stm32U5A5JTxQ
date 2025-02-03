@@ -5583,9 +5583,7 @@ HAL_StatusTypeDef HAL_TIM_ConfigOCrefClear(TIM_HandleTypeDef *htim,
     }
 
     case TIM_CLEARINPUTSOURCE_COMP1:
-#if defined(COMP2)
     case TIM_CLEARINPUTSOURCE_COMP2:
-#endif /* COMP2 */
     {
       /* Clear the OCREF clear selection bit */
       CLEAR_BIT(htim->Instance->SMCR, TIM_SMCR_OCCS);
@@ -7280,6 +7278,8 @@ void TIM_Base_SetConfig(TIM_TypeDef *TIMx, const TIM_Base_InitTypeDef *Structure
   /* Set the auto-reload preload */
   MODIFY_REG(tmpcr1, TIM_CR1_ARPE, Structure->AutoReloadPreload);
 
+  TIMx->CR1 = tmpcr1;
+
   /* Set the Autoreload value */
   TIMx->ARR = (uint32_t)Structure->Period ;
 
@@ -7292,15 +7292,9 @@ void TIM_Base_SetConfig(TIM_TypeDef *TIMx, const TIM_Base_InitTypeDef *Structure
     TIMx->RCR = Structure->RepetitionCounter;
   }
 
-  /* Disable Update Event (UEV) with Update Generation (UG)
-     by changing Update Request Source (URS) to avoid Update flag (UIF) */
-  SET_BIT(TIMx->CR1, TIM_CR1_URS);
-
   /* Generate an update event to reload the Prescaler
      and the repetition counter (only for advanced timer) value immediately */
   TIMx->EGR = TIM_EGR_UG;
-
-  TIMx->CR1 = tmpcr1;
 }
 
 /**
@@ -7425,6 +7419,7 @@ void TIM_OC2_SetConfig(TIM_TypeDef *TIMx, const TIM_OC_InitTypeDef *OC_Config)
     tmpccer |= (OC_Config->OCNPolarity << 4U);
     /* Reset the Output N State */
     tmpccer &= ~TIM_CCER_CC2NE;
+
   }
 
   if (IS_TIM_BREAK_INSTANCE(TIMx))

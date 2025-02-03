@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.22"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "stm32u5a5jtxq",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "stm32u5a5jtxq::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-stm32u5a5jtxq-Debug-1f661e427f36afca359c.json",
+					"name" : "stm32u5a5jtxq",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug",
+		"source" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

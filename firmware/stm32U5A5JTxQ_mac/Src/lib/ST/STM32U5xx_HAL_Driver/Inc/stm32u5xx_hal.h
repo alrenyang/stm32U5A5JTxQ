@@ -81,6 +81,7 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
   */
 
 
+
 /** @defgroup SYSCFG_Exported_Constants SYSCFG Exported Constants
   * @{
   */
@@ -143,22 +144,10 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
 #define SYSCFG_FASTMODEPLUS_PB7        SYSCFG_CFGR1_PB7_FMP  /*!< Enable Fast-mode Plus on PB7 */
 #define SYSCFG_FASTMODEPLUS_PB8        SYSCFG_CFGR1_PB8_FMP  /*!< Enable Fast-mode Plus on PB8 */
 #define SYSCFG_FASTMODEPLUS_PB9        SYSCFG_CFGR1_PB9_FMP  /*!< Enable Fast-mode Plus on PB9 */
-/**
-  * @}
-  */
 
-#if defined(SYSCFG_CFGR1_ENDCAP)
-/** @defgroup SYSCFG_DECOUPLING_CAPACITANCE SYSCFG DECOUPLING CAPACITANCE
-  * @{
-  */
-#define SYSCFG_HSPI_CAPACITANCE_OFF      0x00000000U            /*!< Decoupling with no capacitance value on HSPI supply */
-#define SYSCFG_HSPI_CAPACITANCE_1_DIV_3  SYSCFG_CFGR1_ENDCAP_0  /*!< Decoupling with 1/3 of capacitance value on HSPI supply */
-#define SYSCFG_HSPI_CAPACITANCE_2_DIV_3  SYSCFG_CFGR1_ENDCAP_1  /*!< Decoupling with 2/3 of capacitance value on HSPI supply */
-#define SYSCFG_HSPI_CAPACITANCE_FULL     SYSCFG_CFGR1_ENDCAP    /*!< Decoupling with full capacitance value on HSPI supply */
 /**
   * @}
   */
-#endif /* SYSCFG_CFGR1_ENDCAP */
 
 /** @defgroup SYSCFG_Lock_items SYSCFG Lock items
   * @brief SYSCFG items to set lock on
@@ -242,10 +231,6 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
 #define SYSCFG_OTG_HS_PHY_UNDERRESET  0x00000000U              /*!< PHY under reset */
 #define SYSCFG_OTG_HS_PHY_ENABLE      SYSCFG_OTGHSPHYCR_EN     /*!< PHY enabled */
 
-/**
-  * @}
-  */
-
 /** @defgroup SYSCFG_OTG_PHYTUNER_PreemphasisCurrent  OTG PHYTUNER Preemphasis Current
   * @{
   */
@@ -286,7 +271,6 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
 /**
   * @}
   */
-
 #endif /* SYSCFG_OTGHSPHYCR_EN */
 /**
   * @}
@@ -632,14 +616,8 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
                                          (((__PIN__) & SYSCFG_FASTMODEPLUS_PB8) == SYSCFG_FASTMODEPLUS_PB8) || \
                                          (((__PIN__) & SYSCFG_FASTMODEPLUS_PB9) == SYSCFG_FASTMODEPLUS_PB9))
 
-#if defined(SYSCFG_CFGR1_ENDCAP)
-#define IS_SYSCFG_DECOUPLING_CAPACITANCE(__CAPA__) (((__CAPA__) == SYSCFG_HSPI_CAPACITANCE_OFF)     || \
-                                                    ((__CAPA__) == SYSCFG_HSPI_CAPACITANCE_1_DIV_3) || \
-                                                    ((__CAPA__) == SYSCFG_HSPI_CAPACITANCE_2_DIV_3) || \
-                                                    ((__CAPA__) == SYSCFG_HSPI_CAPACITANCE_FULL))
-#endif /* SYSCFG_CFGR1_ENDCAP */
-
 #if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
+
 #define IS_SYSCFG_ATTRIBUTES(__ATTRIBUTES__) (((__ATTRIBUTES__) == SYSCFG_SEC)  ||\
                                               ((__ATTRIBUTES__) == SYSCFG_NSEC))
 
@@ -660,9 +638,11 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
 #define IS_SYSCFG_LOCK_ITEMS(__ITEM__) ((((__ITEM__) & SYSCFG_MPU_NSEC)  == SYSCFG_MPU_NSEC)    || \
                                         (((__ITEM__) & SYSCFG_VTOR_NSEC) == SYSCFG_VTOR_NSEC)   || \
                                         (((__ITEM__) & ~(SYSCFG_LOCK_ALL)) == 0U))
+
+
 #endif /* __ARM_FEATURE_CMSE */
 
-#if defined SYSCFG_OTGHSPHYCR_EN
+#ifdef SYSCFG_OTGHSPHYCR_EN
 #define IS_SYSCFG_OTGPHY_REFERENCE_CLOCK(__VALUE__)   (((__VALUE__) == SYSCFG_OTG_HS_PHY_CLK_SELECT_1) || \
                                                        ((__VALUE__) == SYSCFG_OTG_HS_PHY_CLK_SELECT_2) || \
                                                        ((__VALUE__) == SYSCFG_OTG_HS_PHY_CLK_SELECT_3) || \
@@ -701,14 +681,13 @@ extern HAL_TickFreqTypeDef      uwTickFreq;
 /**
   * @}
   */
-
 /* Exported functions --------------------------------------------------------*/
 
-/** @addtogroup HAL_Exported_Functions HAL Exported Functions
+/** @addtogroup HAL_Exported_Functions
   * @{
   */
 
-/** @addtogroup HAL_Exported_Functions_Group1 HAL Initialization and de-initialization Functions
+/** @addtogroup HAL_Exported_Functions_Group1
   * @{
   */
 
@@ -723,7 +702,7 @@ HAL_StatusTypeDef HAL_InitTick(uint32_t TickPriority);
   * @}
   */
 
-/** @addtogroup HAL_Exported_Functions_Group2 HAL Control functions
+/** @addtogroup HAL_Exported_Functions_Group2
   * @{
   */
 
@@ -747,7 +726,7 @@ uint32_t HAL_GetUIDw2(void);
   * @}
   */
 
-/** @addtogroup HAL_Exported_Functions_Group3 HAL Debug functions
+/** @addtogroup HAL_Exported_Functions_Group3
   * @{
   */
 
@@ -761,11 +740,13 @@ void HAL_DBGMCU_DisableDBGStandbyMode(void);
   * @}
   */
 
-/** @addtogroup HAL_Exported_Functions_Group4 HAL SYSCFG configuration functions
+/** @addtogroup HAL_Exported_Functions_Group4
   * @{
   */
 
 /* SYSCFG Control functions  ****************************************************/
+void HAL_SYSCFG_SRAM2Erase(void);
+
 void HAL_SYSCFG_VREFBUF_VoltageScalingConfig(uint32_t VoltageScaling);
 void HAL_SYSCFG_VREFBUF_HighImpedanceConfig(uint32_t Mode);
 void HAL_SYSCFG_VREFBUF_TrimmingConfig(uint32_t TrimmingValue);
@@ -779,14 +760,8 @@ void HAL_SYSCFG_SetOTGPHYDisconnectThreshold(uint32_t DisconnectThreshold);
 void HAL_SYSCFG_SetOTGPHYSquelchThreshold(uint32_t SquelchThreshold);
 void HAL_SYSCFG_SetOTGPHYPreemphasisCurrent(uint32_t PreemphasisCurrent);
 #endif /* SYSCFG_OTGHSPHYCR_EN */
-void HAL_SYSCFG_EnableIOAnalogBooster(void);
-void HAL_SYSCFG_DisableIOAnalogBooster(void);
-void HAL_SYSCFG_EnableIOAnalogVoltageSelection(void);
-void HAL_SYSCFG_DisableIOAnalogVoltageSelection(void);
-#if defined(SYSCFG_CFGR1_ENDCAP)
-void HAL_SYSCFG_SetHSPIDecouplingCapacitance(uint32_t Capacitance);
-uint32_t HAL_SYSCFG_GetHSPIDecouplingCapacitance(void);
-#endif /* SYSCFG_CFGR1_ENDCAP */
+void HAL_SYSCFG_EnableIOAnalogSwitchBooster(void);
+void HAL_SYSCFG_DisableIOAnalogSwitchBooster(void);
 void HAL_SYSCFG_EnableSRAMCached(void);
 void HAL_SYSCFG_DisableSRAMCached(void);
 void HAL_SYSCFG_EnableVddCompensationCell(void);
@@ -803,7 +778,7 @@ void HAL_SYSCFG_DisableVddHSPICompensationCell(void);
   * @}
   */
 
-/** @addtogroup HAL_Exported_Functions_Group5 HAL SYSCFG lock management functions
+/** @addtogroup HAL_Exported_Functions_Group5
   * @{
   */
 
@@ -817,7 +792,7 @@ HAL_StatusTypeDef HAL_SYSCFG_GetLock(uint32_t *pItem);
 
 #if defined (__ARM_FEATURE_CMSE) && (__ARM_FEATURE_CMSE == 3U)
 
-/** @addtogroup HAL_Exported_Functions_Group6 HAL SYSCFG attributes management functions
+/** @addtogroup HAL_Exported_Functions_Group6
   * @{
   */
 
@@ -830,6 +805,10 @@ HAL_StatusTypeDef HAL_SYSCFG_GetConfigAttributes(uint32_t Item, uint32_t *pAttri
   */
 
 #endif /* __ARM_FEATURE_CMSE */
+
+/**
+  * @}
+  */
 
 /**
   * @}

@@ -11,7 +11,7 @@ include("cmake/gcc-arm-none-eabi.cmake")
 message("Build CMAKE_MODULE_PATH: " ${CMAKE_MODULE_PATH})
 
 # Core project settings
-project(VS_stm32u5a5)
+project(stm32u5a5jtxq)
 enable_language(C CXX ASM)
 message("Build type: " ${CMAKE_BUILD_TYPE})
 
@@ -74,18 +74,30 @@ link_directories(${CMAKE_PROJECT_NAME} ${link_DIRS})
 # Create an executable object type
 add_executable(${CMAKE_PROJECT_NAME})
 
+#하위 폴더 소스 
 file(GLOB SRC_FILES CONFIGURE_DEPENDS
-    Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Source/Templates/*.c
+    Src/*.c
+    Src/*.cpp
+    Src/app/*.c
+    Src/app/*.cpp
+    Src/device/*.c
+    Src/Common/src/*.c
+    Src/app/src/*.c
+    Src/app/usb/*.c
+    Src/app/usb/usb_cdc/*.c
+    Src/app/usb/usb_cmp/*.c
+    Src/app/usb/usb_hid/*.c
+
     Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c
-    Src/bsp/*.c
+    Src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c
 )
 
-
 # Add sources to executable
-target_sources(${CMAKE_PROJECT_NAME} PUBLIC 
+target_sources(${CMAKE_PROJECT_NAME} PUBLIC
     ${sources_SRCS}
     ${SRC_FILES}
 )
+
 
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
@@ -93,16 +105,22 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     $<$<COMPILE_LANGUAGE:C>: ${include_c_DIRS}>
     $<$<COMPILE_LANGUAGE:CXX>: ${include_cxx_DIRS}>
     $<$<COMPILE_LANGUAGE:ASM>: ${include_asm_DIRS}>
-
     Src
-    Src/bsp
-    Src/include
-    Src/lib
-    Src/lib/ST/CMSIS/Include
-    Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include
+    Src/device
+    Src/Common/inc
+    Src/app
+    Src/app/inc
+    Src/app/usb
+    Src/app/usb/usb_cdc
+    Src/app/usb/usb_cmp
+    Src/app/usb/usb_hid
+    Src/app/keyboard
+
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy
-    
+    Src/lib/ST/CMSIS/Include
+    Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include
+    Src/lib/ST/STM32_USB_Device_Library/Core/Inc
 )
 
 # Add project symbols (macros)
@@ -125,10 +143,14 @@ target_link_libraries(${CMAKE_PROJECT_NAME} ${link_LIBS})
 target_compile_options(${CMAKE_PROJECT_NAME} PRIVATE
     ${cpu_PARAMS}
     ${compiler_OPTS}
+    
     -Wall
     -Wextra
-    -Wpedantic
+    # -Wpedantic
+    -Wno-expansion-to-defined
     -Wno-unused-parameter
+    
+    -Wimplicit-function-declaration
     $<$<COMPILE_LANGUAGE:C>: >
     $<$<COMPILE_LANGUAGE:CXX>:
 
@@ -155,10 +177,11 @@ target_link_options(${CMAKE_PROJECT_NAME} PRIVATE
     -lm
     -lstdc++
     -lsupc++
+    -fno-rtti
+    -lnosys
     -Wl,--end-group
     -Wl,-z,max-page-size=8 # Allow good software remapping across address space (with proper GCC section making)
     -Wl,--print-memory-usage
-    -Xlinker -print-memory-usage -Xlinker
 )
 
 # Execute post-build to print size, generate hex and bin

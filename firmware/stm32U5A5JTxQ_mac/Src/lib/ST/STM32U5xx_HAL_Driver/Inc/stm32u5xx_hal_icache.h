@@ -27,7 +27,6 @@ extern "C" {
 /* Includes -----------------------------------------------------------------*/
 #include "stm32u5xx_hal_def.h"
 
-#if defined(ICACHE)
 /** @addtogroup STM32U5xx_HAL_Driver
   * @{
   */
@@ -285,7 +284,6 @@ HAL_StatusTypeDef HAL_ICACHE_DisableRemapRegion(uint32_t Region);
 /**
   * @}
   */
-#endif /* ICACHE */
 
 #ifdef __cplusplus
 }

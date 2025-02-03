@@ -297,11 +297,8 @@ void HAL_PWR_DisableBkUpAccess(void)
           The Sleep mode is entered by using the HAL_PWR_EnterSLEEPMode()
           function.
 
-          (++) PWR_SLEEPENTRY_WFI             : Enter SLEEP mode with WFI instruction.
-          (++) PWR_SLEEPENTRY_WFE             : Enter SLEEP mode with WFE instruction and
-                                                clear of pending events before.
-          (++) PWR_SLEEPENTRY_WFE_NO_EVT_CLEAR: Enter SLEEP mode with WFE instruction and
-                                                no clear of pending event before.
+          (++) PWR_SLEEPENTRY_WFI: enter Sleep mode with WFI instruction.
+          (++) PWR_SLEEPENTRY_WFE: enter Sleep mode with WFE instruction.
 
       -@@- The Regulator parameter is not used for the STM32U5 family and is
            kept as parameter just to maintain compatibility with other families.
@@ -329,11 +326,8 @@ void HAL_PWR_DisableBkUpAccess(void)
           with :
 
          (++) StopEntry:
-          (+++) PWR_STOPENTRY_WFI             : Enter STOP mode with WFI instruction.
-          (+++) PWR_STOPENTRY_WFE             : Enter STOP mode with WFE instruction and
-                                                clear of pending events before.
-          (+++) PWR_STOPENTRY_WFE_NO_EVT_CLEAR: Enter STOP mode with WFE instruction and
-                                                no clear of pending event before.
+          (+++) PWR_STOPENTRY_WFI: enter Stop mode with WFI instruction.
+          (+++) PWR_STOPENTRY_WFE: enter Stop mode with WFE instruction.
 
       -@@- The Regulator parameter is not used for the STM32U5 family and is
            kept as parameter just to maintain compatibility with other families.
@@ -528,11 +522,13 @@ void HAL_PWR_DisableWakeUpPin(uint32_t WakeUpPin)
   *         products.
   * @param  SleepEntry : Specifies if Sleep mode is entered with WFI or WFE
   *                      instruction.
-  *            @arg PWR_SLEEPENTRY_WFI              : Enter SLEEP mode with WFI instruction.
-  *            @arg PWR_SLEEPENTRY_WFE              : Enter SLEEP mode with WFE instruction and
-  *                                                   clear of pending events before.
-  *            @arg PWR_SLEEPENTRY_WFE_NO_EVT_CLEAR : Enter SLEEP mode with WFE instruction and
-  *                                                   no clear of pending event before.
+  *                      This parameter can be one of the following values :
+  *                      @arg @ref PWR_SLEEPENTRY_WFI enter Sleep mode with Wait
+  *                                For Interrupt request.
+  *                      @arg @ref PWR_SLEEPENTRY_WFE enter Sleep mode with Wait
+  *                                For Event request.
+  * @note   When WFI entry is used, ticks interrupt must be disabled to avoid
+  *         unexpected CPU wake up.
   * @retval None.
   */
 void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SleepEntry)
@@ -553,14 +549,9 @@ void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SleepEntry)
   }
   else
   {
-    if (SleepEntry != PWR_SLEEPENTRY_WFE_NO_EVT_CLEAR)
-    {
-      /* Clear all pending event */
-      __SEV();
-      __WFE();
-    }
-
-    /* Request Wait For Event */
+    /* Wait For Event Request */
+    __SEV();
+    __WFE();
     __WFE();
   }
 }
@@ -589,11 +580,10 @@ void HAL_PWR_EnterSLEEPMode(uint32_t Regulator, uint8_t SleepEntry)
   * @param  StopEntry : Specifies if Stop mode is entered with WFI or WFE
   *                     instruction.
   *                     This parameter can be one of the following values :
-  *            @arg PWR_STOPENTRY_WFI              : Enter STOP mode with WFI instruction.
-  *            @arg PWR_STOPENTRY_WFE              : Enter STOP mode with WFE instruction and
-  *                                                  clear of pending events before.
-  *            @arg PWR_STOPENTRY_WFE_NO_EVT_CLEAR : Enter STOP mode with WFE instruction and
-  *                                                  no clear of pending event before.
+  *                     @arg @ref PWR_STOPENTRY_WFI enter Stop mode with Wait
+  *                               For Interrupt request.
+  *                     @arg @ref PWR_STOPENTRY_WFE enter Stop mode with Wait
+  *                               For Event request.
   * @retval None.
   */
 void HAL_PWR_EnterSTOPMode(uint32_t Regulator, uint8_t StopEntry)
@@ -617,14 +607,9 @@ void HAL_PWR_EnterSTOPMode(uint32_t Regulator, uint8_t StopEntry)
   }
   else
   {
-    if (StopEntry != PWR_STOPENTRY_WFE_NO_EVT_CLEAR)
-    {
-      /* Clear all pending event */
-      __SEV();
-      __WFE();
-    }
-
-    /* Request Wait For Event */
+    /* Wait For Event Request */
+    __SEV();
+    __WFE();
     __WFE();
   }
 
@@ -835,13 +820,6 @@ __weak void HAL_PWR_PVDCallback(void)
   *         privileged access.
   * @note   Privilege attribute for nsecure items can be managed  by a secure
   *         privileged access or by a nsecure privileged access.
-  * @note As the privileged attributes concern either all secure or all non-secure
-  *  PWR resources accesses and not each PWR individual items access attribute,
-  *  the application must ensure that the privilege access attribute configurations
-  *  are coherent amongst the security level set on PWR individual items so not to
-  *  overwrite a previous more restricted access rule (consider either all secure
-  *  and/or all non-secure PWR resources accesses by privileged-only transactions
-  *  or privileged and unprivileged transactions).
   * @param  Item       : Specifies the item(s) to set attributes on.
   *                      This parameter can be a combination of @ref PWR_Items.
   * @param  Attributes : Specifies the available attribute(s).
@@ -939,8 +917,6 @@ HAL_StatusTypeDef HAL_PWR_GetConfigAttributes(uint32_t Item, uint32_t *pAttribut
     attributes = ((PWR->PRIVCFGR & PWR_PRIVCFGR_NSPRIV) == 0U) ? PWR_NSEC_NPRIV : PWR_NSEC_PRIV;
   }
 #else
-  /* Prevent unused argument(s) compilation warning */
-  UNUSED(Item);
   /* Get Non-Secure privileges attribute */
   attributes = ((PWR->PRIVCFGR & PWR_PRIVCFGR_NSPRIV) == 0U) ? PWR_NSEC_NPRIV : PWR_NSEC_PRIV;
 #endif /* __ARM_FEATURE_CMSE */

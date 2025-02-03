@@ -23,18 +23,19 @@ set(linker_script_SRC ${linker_script_SRC}
 # Sources
 set(sources_SRCS ${sources_SRCS}
     
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/syscall.c
-	${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
+	# ${CMAKE_CURRENT_SOURCE_DIR}/Src/main.c
+	# ${CMAKE_CURRENT_SOURCE_DIR}/Src/syscall.c
+	# ${CMAKE_CURRENT_SOURCE_DIR}/Src/sysmem.c
 	${CMAKE_CURRENT_SOURCE_DIR}/Startup/startup_stm32u5a5zjtxq.s
 )
 
 # Include directories
 set(include_c_DIRS ${include_c_DIRS}
+    
 	${CMAKE_CURRENT_SOURCE_DIR}/Inc
 )
-
 set(include_cxx_DIRS ${include_cxx_DIRS}
+    
 )
 set(include_asm_DIRS ${include_asm_DIRS}
     

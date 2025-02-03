@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: VS_stm32u5a5
+# Project: stm32u5a5jtxq
 # Configurations: 
 # =============================================================================
 # =============================================================================
@@ -14,7 +14,7 @@
 #############################################
 # Rule for compiling ASM files.
 
-rule ASM_COMPILER__VS_stm32u5a5_unscanned_
+rule ASM_COMPILER__stm32u5a5jtxq_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.15.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -24,7 +24,7 @@ rule ASM_COMPILER__VS_stm32u5a5_unscanned_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__VS_stm32u5a5_unscanned_
+rule C_COMPILER__stm32u5a5jtxq_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ${LAUNCHER}${CODE_CHECK}C:\ST\STM32CubeCLT_1.15.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -34,7 +34,7 @@ rule C_COMPILER__VS_stm32u5a5_unscanned_
 #############################################
 # Rule for linking C executable.
 
-rule C_EXECUTABLE_LINKER__VS_stm32u5a5_
+rule C_EXECUTABLE_LINKER__stm32u5a5jtxq_
   command = cmd.exe /C "$PRE_LINK && C:\ST\STM32CubeCLT_1.15.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $FLAGS $LINK_FLAGS $in -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD"
   description = Linking C executable $TARGET_FILE
   restat = $RESTAT
@@ -52,17 +52,8 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = C:\ST\STM32CubeCLT_1.15.0\CMake\bin\cmake.exe --regenerate-during-build -SC:\Users\alren\Downloads\stm32U5A5JTxQ-master -BC:\Users\alren\Downloads\stm32U5A5JTxQ-master
+  command = C:\ST\STM32CubeCLT_1.15.0\CMake\bin\cmake.exe --regenerate-during-build -SD:\STM32\STM32U5a5\stm32U5A5JTxQ\firmware\stm32u5a5jtxq -BD:\STM32\STM32U5a5\stm32U5A5JTxQ\firmware\stm32u5a5jtxq
   description = Re-running CMake...
-  generator = 1
-
-
-#############################################
-# Rule for re-checking globbed directories.
-
-rule VERIFY_GLOBS
-  command = C:\ST\STM32CubeCLT_1.15.0\CMake\bin\cmake.exe -P C:\Users\alren\Downloads\stm32U5A5JTxQ-master\CMakeFiles\VerifyGlobs.cmake
-  description = Re-checking globbed directories...
   generator = 1
 
 

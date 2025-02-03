@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/alren/Downloads/stm32U5A5JTxQ-master
+# Install script for directory: D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/VS_stm32u5a5")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files/stm32u5a5jtxq")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/alren/Downloads/stm32U5A5JTxQ-master/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

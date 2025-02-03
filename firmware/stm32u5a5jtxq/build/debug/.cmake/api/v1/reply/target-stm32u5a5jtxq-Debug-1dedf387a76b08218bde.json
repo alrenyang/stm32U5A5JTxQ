@@ -36,7 +36,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 157,
+				"line" : 168,
 				"parent" : 0
 			},
 			{
@@ -48,25 +48,25 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 132,
+				"line" : 143,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 116,
+				"line" : 127,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 98,
+				"line" : 103,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 91,
+				"line" : 96,
 				"parent" : 0
 			}
 		]
@@ -187,6 +187,26 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
@@ -200,6 +220,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "ASM",
@@ -306,6 +330,26 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
@@ -319,6 +363,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "C",
@@ -367,7 +415,23 @@
 				34,
 				35,
 				36,
-				37
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53
 			]
 		},
 		{
@@ -468,6 +532,26 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
@@ -481,6 +565,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "CXX",
@@ -495,7 +583,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				38
+				54
 			]
 		}
 	],
@@ -672,7 +760,23 @@
 				35,
 				36,
 				37,
-				38
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54
 			]
 		}
 	],
@@ -711,7 +815,25 @@
 		{
 			"backtrace" : 7,
 			"compileGroupIndex" : 1,
+			"path" : "Src/app/src/button.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/src/cdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
 			"path" : "Src/app/src/cli.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/src/keyscan.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -723,7 +845,67 @@
 		{
 			"backtrace" : 7,
 			"compileGroupIndex" : 1,
+			"path" : "Src/app/src/micros.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
 			"path" : "Src/app/src/uart.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_cdc/usbd_cdc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_cdc/usbd_cdc_if.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_cdc/usbd_desc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_cmp/usbd_cmp.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_cmp/usbd_desc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_hid/usbd_desc.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usb_hid/usbd_hid.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/usb/usbd_conf.c",
 			"sourceGroupIndex" : 1
 		},
 		{
@@ -904,6 +1086,24 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 1,
 			"path" : "Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c",
 			"sourceGroupIndex" : 1
 		},
 		{

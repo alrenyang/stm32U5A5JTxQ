@@ -8,7 +8,7 @@ TIM_HandleTypeDef htim17;
 UART_HandleTypeDef huart1;
 DMA_HandleTypeDef handle_GPDMA1_Channel0;
 
-PCD_HandleTypeDef hpcd_USB_OTG_HS;
+// PCD_HandleTypeDef hpcd_USB_OTG_HS;
 
 bool bspInit(void)
 {
@@ -24,7 +24,7 @@ bool bspInit(void)
     MX_TIM2_Init();
     MX_TIM17_Init();
     // MX_USART1_UART_Init();
-    MX_USB_OTG_HS_PCD_Init();
+    // MX_USB_OTG_HS_PCD_Init();
 
     if (HAL_ICACHE_Enable() != HAL_OK)
     {
@@ -308,78 +308,78 @@ void MX_TIM17_Init(void)
 
 }
 
-void MX_USART1_UART_Init(void)
-{
+// void MX_USART1_UART_Init(void)
+// {
 
-  /* USER CODE BEGIN USART1_Init 0 */
+//   /* USER CODE BEGIN USART1_Init 0 */
 
-  /* USER CODE END USART1_Init 0 */
+//   /* USER CODE END USART1_Init 0 */
 
-  /* USER CODE BEGIN USART1_Init 1 */
+//   /* USER CODE BEGIN USART1_Init 1 */
 
-  /* USER CODE END USART1_Init 1 */
-  huart1.Instance = USART1;
-  huart1.Init.BaudRate = 115200;
-  huart1.Init.WordLength = UART_WORDLENGTH_8B;
-  huart1.Init.StopBits = UART_STOPBITS_1;
-  huart1.Init.Parity = UART_PARITY_NONE;
-  huart1.Init.Mode = UART_MODE_TX_RX;
-  huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
-  huart1.Init.OverSampling = UART_OVERSAMPLING_16;
-  huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
-  huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
-  huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
-  if (HAL_UART_Init(&huart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  if (HAL_UARTEx_DisableFifoMode(&huart1) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USART1_Init 2 */
+//   /* USER CODE END USART1_Init 1 */
+//   huart1.Instance = USART1;
+//   huart1.Init.BaudRate = 115200;
+//   huart1.Init.WordLength = UART_WORDLENGTH_8B;
+//   huart1.Init.StopBits = UART_STOPBITS_1;
+//   huart1.Init.Parity = UART_PARITY_NONE;
+//   huart1.Init.Mode = UART_MODE_TX_RX;
+//   huart1.Init.HwFlowCtl = UART_HWCONTROL_NONE;
+//   huart1.Init.OverSampling = UART_OVERSAMPLING_16;
+//   huart1.Init.OneBitSampling = UART_ONE_BIT_SAMPLE_DISABLE;
+//   huart1.Init.ClockPrescaler = UART_PRESCALER_DIV1;
+//   huart1.AdvancedInit.AdvFeatureInit = UART_ADVFEATURE_NO_INIT;
+//   if (HAL_UART_Init(&huart1) != HAL_OK)
+//   {
+//     Error_Handler();
+//   }
+//   if (HAL_UARTEx_SetTxFifoThreshold(&huart1, UART_TXFIFO_THRESHOLD_1_8) != HAL_OK)
+//   {
+//     Error_Handler();
+//   }
+//   if (HAL_UARTEx_SetRxFifoThreshold(&huart1, UART_RXFIFO_THRESHOLD_1_8) != HAL_OK)
+//   {
+//     Error_Handler();
+//   }
+//   if (HAL_UARTEx_DisableFifoMode(&huart1) != HAL_OK)
+//   {
+//     Error_Handler();
+//   }
+//   /* USER CODE BEGIN USART1_Init 2 */
 
-  /* USER CODE END USART1_Init 2 */
+//   /* USER CODE END USART1_Init 2 */
 
-}
+// }
 
-void MX_USB_OTG_HS_PCD_Init(void)
-{
+// void MX_USB_OTG_HS_PCD_Init(void)
+// {
 
-  /* USER CODE BEGIN USB_OTG_HS_Init 0 */
+//   /* USER CODE BEGIN USB_OTG_HS_Init 0 */
 
-  /* USER CODE END USB_OTG_HS_Init 0 */
+//   /* USER CODE END USB_OTG_HS_Init 0 */
 
-  /* USER CODE BEGIN USB_OTG_HS_Init 1 */
+//   /* USER CODE BEGIN USB_OTG_HS_Init 1 */
 
-  /* USER CODE END USB_OTG_HS_Init 1 */
-  hpcd_USB_OTG_HS.Instance = USB_OTG_HS;
-  hpcd_USB_OTG_HS.Init.dev_endpoints = 9;
-  hpcd_USB_OTG_HS.Init.speed = PCD_SPEED_HIGH;
-  hpcd_USB_OTG_HS.Init.phy_itface = USB_OTG_HS_EMBEDDED_PHY;
-  hpcd_USB_OTG_HS.Init.Sof_enable = DISABLE;
-  hpcd_USB_OTG_HS.Init.low_power_enable = DISABLE;
-  hpcd_USB_OTG_HS.Init.lpm_enable = DISABLE;
-  hpcd_USB_OTG_HS.Init.use_dedicated_ep1 = DISABLE;
-  hpcd_USB_OTG_HS.Init.vbus_sensing_enable = DISABLE;
-  hpcd_USB_OTG_HS.Init.dma_enable = DISABLE;
-  if (HAL_PCD_Init(&hpcd_USB_OTG_HS) != HAL_OK)
-  {
-    Error_Handler();
-  }
-  /* USER CODE BEGIN USB_OTG_HS_Init 2 */
+//   /* USER CODE END USB_OTG_HS_Init 1 */
+//   hpcd_USB_OTG_HS.Instance = USB_OTG_HS;
+//   hpcd_USB_OTG_HS.Init.dev_endpoints = 9;
+//   hpcd_USB_OTG_HS.Init.speed = PCD_SPEED_HIGH;
+//   hpcd_USB_OTG_HS.Init.phy_itface = USB_OTG_HS_EMBEDDED_PHY;
+//   hpcd_USB_OTG_HS.Init.Sof_enable = DISABLE;
+//   hpcd_USB_OTG_HS.Init.low_power_enable = DISABLE;
+//   hpcd_USB_OTG_HS.Init.lpm_enable = DISABLE;
+//   hpcd_USB_OTG_HS.Init.use_dedicated_ep1 = DISABLE;
+//   hpcd_USB_OTG_HS.Init.vbus_sensing_enable = DISABLE;
+//   hpcd_USB_OTG_HS.Init.dma_enable = DISABLE;
+//   if (HAL_PCD_Init(&hpcd_USB_OTG_HS) != HAL_OK)
+//   {
+//     Error_Handler();
+//   }
+//   /* USER CODE BEGIN USB_OTG_HS_Init 2 */
 
-  /* USER CODE END USB_OTG_HS_Init 2 */
+//   /* USER CODE END USB_OTG_HS_Init 2 */
 
-}
+// }
 
 void Error_Handler(void)
 {

@@ -26,6 +26,7 @@
 #define TEMP_V25       1.43
 #define TEMP_VSENSE    3.3/4096
 
+#define _USE_HW_MICROS
 //#define _USE_WSDG_
 #define _USE_DBG_
 
@@ -38,6 +39,11 @@
 #define _DEF_UART2            1
 #define _DEF_UART3            2
 #define _DEF_UART4            3
+
+#define _DEF_BUTTON1          0
+#define _DEF_BUTTON2          1
+#define _DEF_BUTTON3          2
+#define _DEF_BUTTON4          3
 
 #define _DEF_SPI1             0
 #define _DEF_SPI2             1
@@ -54,7 +60,7 @@
 #define _DEF_PWM3             2
 #define _DEF_PWM4             3
 
-#define constrain(amt,low,high) ((amt)<(low)?(low):((amt)>(high)?(high):(amt)))
+#define constrain(amt,low,high) ((int)(amt)<(low)?(low):((amt)>(high)?(high):(amt)))
 
 //#define _USE_HW_EEPROM
 #define      HW_EEPROM_MAX_SIZE     (1*1024)
@@ -68,6 +74,9 @@
 #define _USE_HW_CDC
 #define      HW_USE_CDC             1
 #define      HW_USE_MSC             0
+
+#define _USE_HW_BUTTON
+#define      HW_BUTTON_MAX_CH       2
 
 #define _USE_HW_UART
 #define HW_UART_MAX_CH		  2
@@ -90,6 +99,17 @@
 #define      HW_LOG_BOOT_BUF_MAX    2048
 #define      HW_LOG_LIST_BUF_MAX    4096
 
+#define _USE_HW_USB
+#define _USE_HW_CDC
+#define      HW_USB_LOG             1
+#define      HW_USB_CMP             1
+#define      HW_USB_CDC             1
+#define      HW_USB_MSC             0
+#define      HW_USB_HID             1
+
+#define _USE_HW_KEYSCAN
+#define      HW_KEYSCAN_MAX_CH      HW_BUTTON_MAX_CH
+#define      HW_KEYSCAN_PRESS_MAX   6
 
 #define VBUS_SENSE_Pin GPIO_PIN_2
 #define VBUS_SENSE_GPIO_Port GPIOC

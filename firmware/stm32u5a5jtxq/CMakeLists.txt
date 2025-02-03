@@ -83,8 +83,13 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
     Src/device/*.c
     Src/Common/src/*.c
     Src/app/src/*.c
+    Src/app/usb/*.c
+    Src/app/usb/usb_cdc/*.c
+    Src/app/usb/usb_cmp/*.c
+    Src/app/usb/usb_hid/*.c
 
     Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c
+    Src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c
 )
 
 # Add sources to executable
@@ -105,11 +110,17 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     Src/Common/inc
     Src/app
     Src/app/inc
+    Src/app/usb
+    Src/app/usb/usb_cdc
+    Src/app/usb/usb_cmp
+    Src/app/usb/usb_hid
+    Src/app/keyboard
 
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy
     Src/lib/ST/CMSIS/Include
     Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include
+    Src/lib/ST/STM32_USB_Device_Library/Core/Inc
 )
 
 # Add project symbols (macros)

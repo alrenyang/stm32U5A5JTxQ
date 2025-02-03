@@ -55,9 +55,58 @@ endif()
 # SRC_FILES at CMakeLists.txt:78 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/*.c")
 set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/button.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/cdc.c"
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/cli.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/keyscan.c"
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/log.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/micros.c"
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/src/uart.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usbd_conf.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc/usbd_cdc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc/usbd_cdc_if.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc/usbd_desc.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp/usbd_cmp.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp/usbd_desc.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid/usbd_desc.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid/usbd_hid.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")
@@ -106,6 +155,18 @@ set(OLD_GLOB
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c"
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c"
   "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c"
+  "D:/STM32/STM32U5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c"
   )
 if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
   message("-- GLOB mismatch!")

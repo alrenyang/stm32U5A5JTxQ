@@ -27,10 +27,10 @@
 
 #define USBD_VID                      0x483
 #define USBD_LANGID_STRING            1033
-#define USBD_MANUFACTURER_STRING      "BARAM"
+#define USBD_MANUFACTURER_STRING      "FRSCO"
 #define USBD_PID_HS                   0x5710
-#define USBD_PRODUCT_STRING_HS        "BARAM-HS-K Keyboard"
-#define USBD_PRODUCT_STRING_FS        "BARAM-FS-K Keyboard"
+#define USBD_PRODUCT_STRING_HS        "FRSCO-HS-K Keyboard"
+#define USBD_PRODUCT_STRING_FS        "FRSCO-FS-K Keyboard"
 #define USBD_CONFIGURATION_STRING_HS  "HID-K Config"
 #define USBD_INTERFACE_STRING_HS      "HID-K Interface"
 

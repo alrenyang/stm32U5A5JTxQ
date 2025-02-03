@@ -1,9 +1,6 @@
 # stm32U5A5JTxQ
 stm32u5a5jtxq cmake project
 
-Cubemx ; include stm32u5au_cubemx.ioc
-
-fimware : stm32u5a_cmake : smt32u5a5 [vscode make project]
-	  stm32U5A5JTxQ_mac [Mac vscode make project]
-
 Remove the build folder
+- build
+명령및 실행 -> debug -> build 폴더 생성 확인 후 clrean and build

@@ -11043,7 +11043,7 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
 .iplt           0x080129a8        0x0
  .iplt          0x080129a8        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.rodata         0x080129a8      0xd94
+.rodata         0x080129a8      0xd8c
                 0x080129a8                        . = ALIGN (0x4)
  *(.rodata)
  .rodata        0x080129a8        0x8 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
@@ -11130,148 +11130,147 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x08012ed0        0xd CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
  *fill*         0x08012edd        0x3 
  .rodata.USBD_CMP_ProductStrDescriptor.str1.4
-                0x08012ee0       0x27 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
- *fill*         0x08012f07        0x1 
+                0x08012ee0       0x23 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
+ *fill*         0x08012f03        0x1 
  .rodata.USBD_CMP_ManufacturerStrDescriptor.str1.4
-                0x08012f08        0x6 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
+                0x08012f04        0x6 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
  .rodata.USBD_HID_InterfaceStrDescriptor.str1.4
-                0x08012f0e       0x10 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
+                0x08012f0a       0x10 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
  .rodata.USBD_HID_ConfigStrDescriptor.str1.4
-                0x08012f0e        0xd CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
- *fill*         0x08012f0e        0x2 
+                0x08012f0a        0xd CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
+ *fill*         0x08012f0a        0x2 
  .rodata.USBD_HID_ProductStrDescriptor.str1.4
-                0x08012f10       0x28 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
+                0x08012f0c       0x28 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
  .rodata.USBD_HID_ManufacturerStrDescriptor.str1.4
-                0x08012f38        0x6 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
+                0x08012f34        0x6 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
  .rodata.USBD_HID_EP0_RxReady.str1.4
-                0x08012f38       0x6c CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
+                0x08012f34       0x6c CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
  .rodata.USBD_HID_Init.str1.4
-                0x08012fa4       0x23 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
- *fill*         0x08012fc7        0x1 
+                0x08012fa0       0x23 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
+ *fill*         0x08012fc3        0x1 
  .rodata.cliCmd.str1.4
-                0x08012fc8       0xa1 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
+                0x08012fc4       0xa1 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
                                  0xa9 (size before relaxing)
- *fill*         0x08013069        0x3 
+ *fill*         0x08013065        0x3 
  .rodata.USBD_HID_Setup.str1.4
-                0x0801306c      0x199 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
- *fill*         0x08013205        0x3 
+                0x08013068      0x199 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
+ *fill*         0x08013201        0x3 
  .rodata.MSIRangeTable
-                0x08013208       0x40 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
-                0x08013208                MSIRangeTable
+                0x08013204       0x40 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
+                0x08013204                MSIRangeTable
  .rodata.APBPrescTable
-                0x08013248        0x8 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
-                0x08013248                APBPrescTable
+                0x08013244        0x8 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
+                0x08013244                APBPrescTable
  .rodata.AHBPrescTable
-                0x08013250       0x10 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
-                0x08013250                AHBPrescTable
+                0x0801324c       0x10 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
+                0x0801324c                AHBPrescTable
  .rodata.LPGPIO_Map
-                0x08013260       0x80 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+                0x0801325c       0x80 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
  .rodata.UARTPrescTable
-                0x080132e0       0x18 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
-                0x080132e0                UARTPrescTable
+                0x080132dc       0x18 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+                0x080132dc                UARTPrescTable
  .rodata._strtod_l.str1.1
-                0x080132f8        0x2 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
+                0x080132f4        0x2 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
                                   0xf (size before relaxing)
- *fill*         0x080132fa        0x2 
+ *fill*         0x080132f6        0x2 
  .rodata.fpinan.0
-                0x080132fc       0x14 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
- .rodata.fpi.1  0x08013310       0x14 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
- *fill*         0x08013324        0x4 
+                0x080132f8       0x14 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
+ .rodata.fpi.1  0x0801330c       0x14 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
  .rodata.tinytens
-                0x08013328       0x28 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
+                0x08013320       0x28 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strtod.o)
  .rodata._setlocale_r.str1.1
-                0x08013350        0x8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-locale.o)
+                0x08013348        0x8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-locale.o)
                                   0x9 (size before relaxing)
  .rodata.str1.1
-                0x08013358        0x2 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-locale.o)
+                0x08013350        0x2 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-locale.o)
  .rodata._ctype_
-                0x08013358      0x101 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-ctype_.o)
-                0x08013358                _ctype_
+                0x08013350      0x101 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-ctype_.o)
+                0x08013350                _ctype_
  .rodata.__gethex.str1.1
-                0x08013459       0x71 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-gdtoa-gethex.o)
+                0x08013451       0x71 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-gdtoa-gethex.o)
                                  0x73 (size before relaxing)
  .rodata._svfprintf_r.str1.1
-                0x080134ca       0x34 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
+                0x080134c2       0x34 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
  .rodata.zeroes.0
-                0x080134fe       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
+                0x080134f6       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
  .rodata.blanks.1
-                0x0801350e       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
+                0x08013506       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-svfprintf.o)
  .rodata.__multadd.str1.1
-                0x0801351e       0x59 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
+                0x08013516       0x59 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
                                  0x6a (size before relaxing)
- *fill*         0x08013577        0x1 
- .rodata.p05.0  0x08013578        0xc /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
- *fill*         0x08013584        0x4 
+ *fill*         0x0801356f        0x1 
+ .rodata.p05.0  0x08013570        0xc /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
+ *fill*         0x0801357c        0x4 
  .rodata.__mprec_bigtens
-                0x08013588       0x28 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
-                0x08013588                __mprec_bigtens
+                0x08013580       0x28 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
+                0x08013580                __mprec_bigtens
  .rodata.__mprec_tens
-                0x080135b0       0xc8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
-                0x080135b0                __mprec_tens
+                0x080135a8       0xc8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-mprec.o)
+                0x080135a8                __mprec_tens
  .rodata.__assert_func.str1.1
-                0x08013678       0x3c /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-assert.o)
+                0x08013670       0x3c /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-assert.o)
                                  0x3d (size before relaxing)
  .rodata._dtoa_r.str1.1
-                0x080136b4       0x65 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-dtoa.o)
+                0x080136ac       0x65 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-dtoa.o)
                                  0x78 (size before relaxing)
  .rodata._vfiprintf_r.str1.1
-                0x08013719       0x22 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
+                0x08013711       0x22 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
  .rodata.zeroes.0
-                0x08013719       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
+                0x08013711       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
  .rodata.blanks.1
-                0x08013729       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
-                0x0801373c                        . = ALIGN (0x4)
- *fill*         0x08013739        0x3 
+                0x08013721       0x10 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-vfiprintf.o)
+                0x08013734                        . = ALIGN (0x4)
+ *fill*         0x08013731        0x3 
 
-.ARM.extab      0x0801373c        0x0
-                0x0801373c                        . = ALIGN (0x4)
+.ARM.extab      0x08013734        0x0
+                0x08013734                        . = ALIGN (0x4)
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x0801373c                        . = ALIGN (0x4)
+                0x08013734                        . = ALIGN (0x4)
 
-.ARM            0x0801373c        0x8
-                0x0801373c                        . = ALIGN (0x4)
-                0x0801373c                        __exidx_start = .
+.ARM            0x08013734        0x8
+                0x08013734                        . = ALIGN (0x4)
+                0x08013734                        __exidx_start = .
  *(.ARM.exidx*)
- .ARM.exidx     0x0801373c        0x8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strcmp.o)
- .ARM.exidx     0x08013744        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strlen.o)
+ .ARM.exidx     0x08013734        0x8 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strcmp.o)
+ .ARM.exidx     0x0801373c        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-strlen.o)
                                   0x8 (size before relaxing)
- .ARM.exidx     0x08013744        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.exidx     0x0801373c        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/libgcc.a(_udivmoddi4.o)
                                   0x8 (size before relaxing)
-                0x08013744                        __exidx_end = .
-                0x08013744                        . = ALIGN (0x4)
+                0x0801373c                        __exidx_end = .
+                0x0801373c                        . = ALIGN (0x4)
 
-.preinit_array  0x08013744        0x0
-                0x08013744                        . = ALIGN (0x4)
-                0x08013744                        PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0801373c        0x0
+                0x0801373c                        . = ALIGN (0x4)
+                0x0801373c                        PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x08013744                        PROVIDE (__preinit_array_end = .)
-                0x08013744                        . = ALIGN (0x4)
+                0x0801373c                        PROVIDE (__preinit_array_end = .)
+                0x0801373c                        . = ALIGN (0x4)
 
-.init_array     0x08013744        0x8
-                0x08013744                        . = ALIGN (0x4)
-                0x08013744                        PROVIDE (__init_array_start = .)
+.init_array     0x0801373c        0x8
+                0x0801373c                        . = ALIGN (0x4)
+                0x0801373c                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  .init_array.00000
-                0x08013744        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-__call_atexit.o)
+                0x0801373c        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/../../../../arm-none-eabi/lib/thumb/v8-m.main+fp/hard/libc.a(libc_a-__call_atexit.o)
  *(.init_array*)
- .init_array    0x08013748        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x0801374c                        PROVIDE (__init_array_end = .)
-                0x0801374c                        . = ALIGN (0x4)
+ .init_array    0x08013740        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x08013744                        PROVIDE (__init_array_end = .)
+                0x08013744                        . = ALIGN (0x4)
 
-.fini_array     0x0801374c        0x4
-                0x0801374c                        . = ALIGN (0x4)
-                0x0801374c                        PROVIDE (__fini_array_start = .)
+.fini_array     0x08013744        0x4
+                0x08013744                        . = ALIGN (0x4)
+                0x08013744                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0801374c        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
-                0x08013750                        PROVIDE (__fini_array_end = .)
-                0x08013750                        . = ALIGN (0x4)
-                0x08013750                        _sidata = LOADADDR (.data)
+ .fini_array    0x08013744        0x4 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+                0x08013748                        PROVIDE (__fini_array_end = .)
+                0x08013748                        . = ALIGN (0x4)
+                0x08013748                        _sidata = LOADADDR (.data)
 
-.rel.dyn        0x08013750        0x0
- .rel.iplt      0x08013750        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
+.rel.dyn        0x08013748        0x0
+ .rel.iplt      0x08013748        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.data           0x20000000      0x8ec load address 0x08013750
+.data           0x20000000      0x8ec load address 0x08013748
                 0x20000000                        . = ALIGN (0x4)
                 0x20000000                        _sdata = .
  *(.data)
@@ -11405,14 +11404,14 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x200008ec                        . = ALIGN (0x4)
                 0x200008ec                        _edata = .
 
-.igot.plt       0x200008ec        0x0 load address 0x0801403c
+.igot.plt       0x200008ec        0x0 load address 0x08014034
  .igot.plt      0x200008ec        0x0 /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eabi/12.3.1/thumb/v8-m.main+fp/hard/crtbegin.o
 
-.non_cache      0x200008ec      0x858 load address 0x0801403c
+.non_cache      0x200008ec      0x858 load address 0x08014034
  .non_cache     0x200008ec      0x858 CMakeFiles/stm32u5a5jtxq.dir/Src/app/src/uart.c.obj
                 0x20001144                        . = ALIGN (0x4)
 
-.bss            0x20001144     0x9de8 load address 0x08014894
+.bss            0x20001144     0x9de8 load address 0x0801488c
                 0x20001144                        _sbss = .
                 0x20001144                        __bss_start__ = _sbss
  *(.bss)
@@ -11620,7 +11619,7 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                 0x2000af2c                        __bss_end__ = _ebss
 
 ._user_heap_stack
-                0x2000af2c      0x604 load address 0x08014894
+                0x2000af2c      0x604 load address 0x0801488c
                 0x2000af30                        . = ALIGN (0x8)
  *fill*         0x2000af2c        0x4 
                 [!provide]                        PROVIDE (end = .)
@@ -12137,7 +12136,7 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
  .debug_aranges
                 0x00002328       0x20 CMakeFiles/stm32u5a5jtxq.dir/Src/main.cpp.obj
 
-.debug_str      0x00000000   0x176a9b
+.debug_str      0x00000000   0x176a96
  .debug_str     0x00000000       0xd5 CMakeFiles/stm32u5a5jtxq.dir/Startup/startup_stm32u5a5zjtxq.s.obj
  .debug_str     0x000000d5   0x157d74 CMakeFiles/stm32u5a5jtxq.dir/Src/Common/src/qbuffer.c.obj
                              0x158912 (size before relaxing)
@@ -12169,63 +12168,63 @@ LOAD /opt/ST/STM32CubeCLT_1.17.0/GNU-tools-for-STM32/bin/../lib/gcc/arm-none-eab
                              0x1597bc (size before relaxing)
  .debug_str     0x00163f82      0x598 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_cmp.c.obj
                              0x15a85c (size before relaxing)
- .debug_str     0x0016451a      0x261 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
-                             0x15980e (size before relaxing)
- .debug_str     0x0016477b      0x1c8 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
+ .debug_str     0x0016451a      0x25c CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_cmp/usbd_desc.c.obj
+                             0x159809 (size before relaxing)
+ .debug_str     0x00164776      0x1c8 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_desc.c.obj
                              0x1597dd (size before relaxing)
- .debug_str     0x00164943     0x56c7 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
+ .debug_str     0x0016493e     0x56c7 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usb_hid/usbd_hid.c.obj
                              0x15f69d (size before relaxing)
- .debug_str     0x0016a00a      0x5c3 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usbd_conf.c.obj
+ .debug_str     0x0016a005      0x5c3 CMakeFiles/stm32u5a5jtxq.dir/Src/app/usb/usbd_conf.c.obj
                              0x15b4bb (size before relaxing)
- .debug_str     0x0016a5cd      0x24e CMakeFiles/stm32u5a5jtxq.dir/Src/device/stm32u5xx_hal_msp.c.obj
+ .debug_str     0x0016a5c8      0x24e CMakeFiles/stm32u5a5jtxq.dir/Src/device/stm32u5xx_hal_msp.c.obj
                              0x15aa26 (size before relaxing)
- .debug_str     0x0016a81b      0x158 CMakeFiles/stm32u5a5jtxq.dir/Src/device/stm32u5xx_it.c.obj
+ .debug_str     0x0016a816      0x158 CMakeFiles/stm32u5a5jtxq.dir/Src/device/stm32u5xx_it.c.obj
                              0x159fc0 (size before relaxing)
- .debug_str     0x0016a973     0x1ff6 CMakeFiles/stm32u5a5jtxq.dir/Src/device/syscall.c.obj
+ .debug_str     0x0016a96e     0x1ff6 CMakeFiles/stm32u5a5jtxq.dir/Src/device/syscall.c.obj
                                0x93c6 (size before relaxing)
- .debug_str     0x0016c969       0xb0 CMakeFiles/stm32u5a5jtxq.dir/Src/device/sysmem.c.obj
+ .debug_str     0x0016c964       0xb0 CMakeFiles/stm32u5a5jtxq.dir/Src/device/sysmem.c.obj
                                0x5b3a (size before relaxing)
- .debug_str     0x0016ca19      0x101 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
+ .debug_str     0x0016ca14      0x101 CMakeFiles/stm32u5a5jtxq.dir/Src/device/system_stm32u5xx.c.obj
                              0x157c67 (size before relaxing)
- .debug_str     0x0016cb1a      0x954 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
+ .debug_str     0x0016cb15      0x954 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal.c.obj
                              0x158d35 (size before relaxing)
- .debug_str     0x0016d46e      0x3cd CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
+ .debug_str     0x0016d469      0x3cd CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_cortex.c.obj
                              0x1588cc (size before relaxing)
- .debug_str     0x0016d83b      0x33b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
+ .debug_str     0x0016d836      0x33b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma.c.obj
                              0x157fec (size before relaxing)
- .debug_str     0x0016db76      0x7dc CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
+ .debug_str     0x0016db71      0x7dc CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_dma_ex.c.obj
                              0x158658 (size before relaxing)
- .debug_str     0x0016e352      0x2fa CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
+ .debug_str     0x0016e34d      0x2fa CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_gpio.c.obj
                              0x157c8d (size before relaxing)
- .debug_str     0x0016e64c      0x6ee CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
+ .debug_str     0x0016e647      0x6ee CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_icache.c.obj
                              0x157fab (size before relaxing)
- .debug_str     0x0016ed3a      0x63a CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
+ .debug_str     0x0016ed35      0x63a CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd.c.obj
                              0x158551 (size before relaxing)
- .debug_str     0x0016f374      0x1ba CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
+ .debug_str     0x0016f36f      0x1ba CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pcd_ex.c.obj
                              0x157eef (size before relaxing)
- .debug_str     0x0016f52e      0x92b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
+ .debug_str     0x0016f529      0x92b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_pwr_ex.c.obj
                              0x1584ac (size before relaxing)
- .debug_str     0x0016fe59     0x1328 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
+ .debug_str     0x0016fe54     0x1328 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc.c.obj
                              0x159401 (size before relaxing)
- .debug_str     0x00171181     0x2a5d CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
+ .debug_str     0x0017117c     0x2a5d CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_rcc_ex.c.obj
                              0x15aaee (size before relaxing)
- .debug_str     0x00173bde      0xf6b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
+ .debug_str     0x00173bd9      0xf6b CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim.c.obj
                              0x1590ab (size before relaxing)
- .debug_str     0x00174b49      0x986 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
+ .debug_str     0x00174b44      0x986 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_tim_ex.c.obj
                              0x158d02 (size before relaxing)
- .debug_str     0x001754cf      0x933 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
+ .debug_str     0x001754ca      0x933 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart.c.obj
                              0x158940 (size before relaxing)
- .debug_str     0x00175e02      0x398 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
+ .debug_str     0x00175dfd      0x398 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_hal_uart_ex.c.obj
                              0x1583e1 (size before relaxing)
- .debug_str     0x0017619a      0x4e1 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
+ .debug_str     0x00176195      0x4e1 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32U5xx_HAL_Driver/Src/stm32u5xx_ll_usb.c.obj
                              0x15844b (size before relaxing)
- .debug_str     0x0017667b      0x211 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
+ .debug_str     0x00176676      0x211 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_core.c.obj
                              0x15a789 (size before relaxing)
- .debug_str     0x0017688c      0x12c CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
+ .debug_str     0x00176887      0x12c CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ctlreq.c.obj
                              0x15a517 (size before relaxing)
- .debug_str     0x001769b8       0x90 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
+ .debug_str     0x001769b3       0x90 CMakeFiles/stm32u5a5jtxq.dir/Src/lib/ST/STM32_USB_Device_Library/Core/Src/usbd_ioreq.c.obj
                              0x159a0f (size before relaxing)
- .debug_str     0x00176a48       0x53 CMakeFiles/stm32u5a5jtxq.dir/Src/main.cpp.obj
+ .debug_str     0x00176a43       0x53 CMakeFiles/stm32u5a5jtxq.dir/Src/main.cpp.obj
                              0x160544 (size before relaxing)
 
 .debug_rnglists

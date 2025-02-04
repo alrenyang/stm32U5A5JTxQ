@@ -1,0 +1,33 @@
+#ifndef KEYSCAN_H_
+#define KEYSCAN_H_
+
+#ifdef __cplusplus
+extern "C" {
+#endif
+
+#include "def.h"
+#include "micros.h"
+
+#ifdef _USE_HW_KEYSCAN
+
+typedef struct
+{
+  uint8_t modifier;
+  uint8_t reserved;
+  uint8_t keycode[HW_KEYSCAN_PRESS_MAX];
+} keyscan_keycode_t;
+
+
+bool keyscanInit(void);
+void keyscanUpdate(void);
+bool keyscanGetKeyCode(keyscan_keycode_t *p_keycode);
+
+bool keyscanGetChangedCode(keyscan_keycode_t *p_keycode);
+bool keyscanGetPressedCode(keyscan_keycode_t *p_keycode);
+
+#endif
+#ifdef __cplusplus
+}
+#endif
+
+#endif

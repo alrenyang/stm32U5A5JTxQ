@@ -36,7 +36,7 @@
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 168,
+				"line" : 170,
 				"parent" : 0
 			},
 			{
@@ -48,25 +48,25 @@
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 143,
+				"line" : 145,
 				"parent" : 0
 			},
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 127,
+				"line" : 129,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 0,
-				"line" : 103,
+				"line" : 104,
 				"parent" : 0
 			},
 			{
 				"command" : 6,
 				"file" : 0,
-				"line" : 96,
+				"line" : 97,
 				"parent" : 0
 			}
 		]
@@ -204,6 +204,10 @@
 				{
 					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/keyboard"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/via"
 				},
 				{
 					"backtrace" : 6,
@@ -350,6 +354,10 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/via"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
@@ -431,7 +439,8 @@
 				50,
 				51,
 				52,
-				53
+				53,
+				54
 			]
 		},
 		{
@@ -552,6 +561,10 @@
 				},
 				{
 					"backtrace" : 6,
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/via"
+				},
+				{
+					"backtrace" : 6,
 					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
@@ -583,7 +596,7 @@
 			"sourceIndexes" : 
 			[
 				3,
-				54
+				55
 			]
 		}
 	],
@@ -776,7 +789,8 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55
 			]
 		}
 	],
@@ -906,6 +920,12 @@
 			"backtrace" : 7,
 			"compileGroupIndex" : 1,
 			"path" : "Src/app/usb/usbd_conf.c",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 7,
+			"compileGroupIndex" : 1,
+			"path" : "Src/app/via/via.c",
 			"sourceGroupIndex" : 1
 		},
 		{

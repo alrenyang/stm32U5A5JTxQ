@@ -279,21 +279,28 @@ uint8_t  USBD_CMPSIT_AddToConfDesc(USBD_HandleTypeDef *pdev)
 #if USBD_CMPSIT_ACTIVATE_HID == 1
     case CLASS_TYPE_HID:
       /* Setup Max packet sizes (for HID, no dependency on USB Speed, both HS/FS have same packet size) */
-      pdev->tclasslist[pdev->classId].CurrPcktSze = HID_EPIN_SIZE;
+      pdev->tclasslist[pdev->classId].CurrPcktSze = HID_EP_SIZE;
 
       /* Find the first available interface slot and Assign number of interfaces */
       idxIf = USBD_CMPSIT_FindFreeIFNbr(pdev);
-      pdev->tclasslist[pdev->classId].NumIf = 1U;
+      pdev->tclasslist[pdev->classId].NumIf = 2U;
       pdev->tclasslist[pdev->classId].Ifs[0] = idxIf;
+      pdev->tclasslist[pdev->classId].Ifs[1] = (uint8_t)(idxIf + 1U);
 
       /* Assign endpoint numbers */
-      pdev->tclasslist[pdev->classId].NumEps = 1U; /* EP1_IN */
+      pdev->tclasslist[pdev->classId].NumEps = 3U; 
 
       /* Set IN endpoint slot */
       iEp = pdev->tclasslist[pdev->classId].EpAdd[0];
-
-      /* Assign IN Endpoint */
       USBD_CMPSIT_AssignEp(pdev, iEp, USBD_EP_TYPE_INTR, pdev->tclasslist[pdev->classId].CurrPcktSze);
+
+      /* Set VIA IN endpoint slot */
+      iEp = pdev->tclasslist[pdev->classId].EpAdd[1];
+      USBD_CMPSIT_AssignEp(pdev, iEp, USBD_EP_TYPE_INTR, HID_VIA_EP_SIZE);
+
+      /* Set VIA OUT endpoint slot */
+      iEp = pdev->tclasslist[pdev->classId].EpAdd[2];
+      USBD_CMPSIT_AssignEp(pdev, iEp, USBD_EP_TYPE_INTR, HID_VIA_EP_SIZE);
 
       /* Configure and Append the Descriptor */
       USBD_CMPSIT_HIDKeyboardDesc(pdev, (uint32_t)pCmpstFSConfDesc, &CurrFSConfDescSz, (uint8_t)USBD_SPEED_FULL);
@@ -820,14 +827,16 @@ static void  USBD_CMPSIT_HIDKeyboardDesc(USBD_HandleTypeDef *pdev, uint32_t pCon
   static USBD_EpDescTypeDef *pEpDesc;
   static USBD_HIDDescTypeDef *pHidKeyboardDesc;
 
+  // KEYBOARD 
+  //
   /* Append HID Interface descriptor to Configuration descriptor */
   __USBD_CMPSIT_SET_IF(pdev->tclasslist[pdev->classId].Ifs[0],
-                       0U,                                                /* bAlternateSetting: Alternate setting */
-                       (uint8_t)(pdev->tclasslist[pdev->classId].NumEps), /* bNumEndpoints */
-                       0x03U,                                             /* bInterfaceClass: HID */
-                       0x01U,                                             /* bInterfaceSubClass : 1=BOOT, 0=no boot */
-                       0x01U,                                             /* nInterfaceProtocol : 0=none, 1=keyboard, 2=mouse */
-                       0U);                                               /* iInterface: Index of string descriptor */
+                       0U,    /* bAlternateSetting: Alternate setting */
+                       1U,    /* bNumEndpoints */
+                       0x03U, /* bInterfaceClass: HID */
+                       0x01U, /* bInterfaceSubClass : 1=BOOT, 0=no boot */
+                       0x01U, /* nInterfaceProtocol : 0=none, 1=keyboard, 2=mouse */
+                       0U);   /* iInterface: Index of string descriptor */
 
   /* Append HID Functional descriptor to Configuration descriptor */
   pHidKeyboardDesc                      = ((USBD_HIDDescTypeDef *)(pConf + *Sze));
@@ -844,8 +853,40 @@ static void  USBD_CMPSIT_HIDKeyboardDesc(USBD_HandleTypeDef *pdev, uint32_t pCon
   __USBD_CMPSIT_SET_EP(pdev->tclasslist[pdev->classId].Eps[0].add, USBD_EP_TYPE_INTR, HID_EPIN_SIZE, \
                        HID_HS_BINTERVAL, HID_FS_BINTERVAL);
 
+
+  // VIA 
+  //
+  /* Append HID Interface descriptor to Configuration descriptor */
+  __USBD_CMPSIT_SET_IF(pdev->tclasslist[pdev->classId].Ifs[1],
+                       0U,     /* bAlternateSetting: Alternate setting */
+                       2U,     /* bNumEndpoints */
+                       0x03U,  /* bInterfaceClass: HID */
+                       0x00U,  /* bInterfaceSubClass : 1=BOOT, 0=no boot */
+                       0x00U,  /* nInterfaceProtocol : 0=none, 1=keyboard, 2=mouse */
+                       0x00U); /* iInterface: Index of string descriptor */
+
+  /* Append HID Functional descriptor to Configuration descriptor */
+  pHidKeyboardDesc                      = ((USBD_HIDDescTypeDef *)(pConf + *Sze));
+  pHidKeyboardDesc->bLength             = (uint8_t)sizeof(USBD_HIDDescTypeDef);
+  pHidKeyboardDesc->bDescriptorType     = HID_DESCRIPTOR_TYPE;
+  pHidKeyboardDesc->bcdHID              = 0x0111U;
+  pHidKeyboardDesc->bCountryCode        = 0x00U;
+  pHidKeyboardDesc->bNumDescriptors     = 0x01U;
+  pHidKeyboardDesc->bHIDDescriptorType  = 0x22U;
+  pHidKeyboardDesc->wItemLength         = HID_KEYBOARD_VIA_REPORT_DESC_SIZE;
+  *Sze                                 += (uint32_t)sizeof(USBD_HIDDescTypeDef);
+
+
+  /* Append Endpoint descriptor to Configuration descriptor */
+  __USBD_CMPSIT_SET_EP(pdev->tclasslist[pdev->classId].Eps[1].add, USBD_EP_TYPE_INTR, HID_VIA_EP_SIZE, \
+                       HID_HS_BINTERVAL, HID_FS_BINTERVAL);
+
+  /* Append Endpoint descriptor to Configuration descriptor */
+  __USBD_CMPSIT_SET_EP(pdev->tclasslist[pdev->classId].Eps[2].add, USBD_EP_TYPE_INTR, HID_VIA_EP_SIZE, \
+                       HID_HS_BINTERVAL, HID_FS_BINTERVAL);
+
   /* Update Config Descriptor and IAD descriptor */
-  ((USBD_ConfigDescTypeDef *)pConf)->bNumInterfaces += 1U;
+  ((USBD_ConfigDescTypeDef *)pConf)->bNumInterfaces += 2U;
   ((USBD_ConfigDescTypeDef *)pConf)->wTotalLength  = (uint16_t)(*Sze);
 }
 

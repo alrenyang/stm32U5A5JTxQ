@@ -8,7 +8,6 @@ extern "C" {
 #include "def.h"
 #include "micros.h"
 
-#ifdef _USE_HW_KEYSCAN
 
 typedef struct
 {
@@ -25,7 +24,6 @@ bool keyscanGetKeyCode(keyscan_keycode_t *p_keycode);
 bool keyscanGetChangedCode(keyscan_keycode_t *p_keycode);
 bool keyscanGetPressedCode(keyscan_keycode_t *p_keycode);
 
-#endif
 #ifdef __cplusplus
 }
 #endif

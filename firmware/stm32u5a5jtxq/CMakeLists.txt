@@ -87,6 +87,7 @@ file(GLOB SRC_FILES CONFIGURE_DEPENDS
     Src/app/usb/usb_cdc/*.c
     Src/app/usb/usb_cmp/*.c
     Src/app/usb/usb_hid/*.c
+    Src/app/via/*.c
 
     Src/lib/ST/STM32U5xx_HAL_Driver/Src/*.c
     Src/lib/ST/STM32_USB_Device_Library/Core/Src/*.c
@@ -115,6 +116,7 @@ target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     Src/app/usb/usb_cmp
     Src/app/usb/usb_hid
     Src/app/keyboard
+    Src/app/via
 
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc
     Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy

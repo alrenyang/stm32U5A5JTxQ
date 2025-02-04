@@ -30,59 +30,17 @@
 //#define _USE_WSDG_
 #define _USE_DBG_
 
-#define _DEF_CH1          0
-#define _DEF_CH2          1
-#define _DEF_CH3          2
-#define _DEF_CH4          3
-
-#define _DEF_UART1            0
-#define _DEF_UART2            1
-#define _DEF_UART3            2
-#define _DEF_UART4            3
-
-#define _DEF_BUTTON1          0
-#define _DEF_BUTTON2          1
-#define _DEF_BUTTON3          2
-#define _DEF_BUTTON4          3
-
-#define _DEF_SPI1             0
-#define _DEF_SPI2             1
-#define _DEF_SPI3             2
-#define _DEF_SPI4             3
-
-#define _DEF_I2C1             0
-#define _DEF_I2C2             1
-#define _DEF_I2C3             2
-#define _DEF_I2C4             3
-
-#define _DEF_PWM1             0
-#define _DEF_PWM2             1
-#define _DEF_PWM3             2
-#define _DEF_PWM4             3
-
-#define constrain(amt,low,high) ((int)(amt)<(low)?(low):((amt)>(high)?(high):(amt)))
-
-//#define _USE_HW_EEPROM
-#define      HW_EEPROM_MAX_SIZE     (1*1024)
-
-//#define _USE_HW_I2C
-#define      HW_I2C_MAX_CH          1
-#define      HW_I2C_CH_EEPROM       _DEF_I2C1
-
-
-#define _USE_HW_USB
-#define _USE_HW_CDC
-#define      HW_USE_CDC             1
-#define      HW_USE_MSC             0
-
-#define _USE_HW_BUTTON
-#define      HW_BUTTON_MAX_CH       2
+#define _USE_HW_LED
+#define      HW_LED_MAX_CH          3
 
 #define _USE_HW_UART
-#define HW_UART_MAX_CH		  2
+#define      HW_UART_MAX_CH         2
 #define      HW_UART_CH_SWD         _DEF_UART1
 #define      HW_UART_CH_USB         _DEF_UART2
 #define      HW_UART_CH_CLI         HW_UART_CH_SWD
+
+#define _USE_HW_BUTTON
+#define      HW_BUTTON_MAX_CH       2
 
 #define _USE_HW_CLI
 #define      HW_CLI_CMD_LIST_MAX    32
@@ -110,6 +68,93 @@
 #define _USE_HW_KEYSCAN
 #define      HW_KEYSCAN_MAX_CH      HW_BUTTON_MAX_CH
 #define      HW_KEYSCAN_PRESS_MAX   6
+
+//-- CLI
+//
+#define _USE_CLI_HW_BUTTON          1
+#define _USE_CLI_HW_KEYSCAN         1
+
+#define _DEF_CH1              0
+#define _DEF_CH2              1
+#define _DEF_CH3              2
+#define _DEF_CH4              3
+
+#define _DEF_LED1             0
+#define _DEF_LED2             1
+#define _DEF_LED3             2
+#define _DEF_LED4             3
+
+#define _DEF_UART1            0
+#define _DEF_UART2            1
+#define _DEF_UART3            2
+#define _DEF_UART4            3
+
+#define _DEF_BUTTON1          0
+#define _DEF_BUTTON2          1
+#define _DEF_BUTTON3          2
+#define _DEF_BUTTON4          3
+
+#define _DEF_SPI1             0
+#define _DEF_SPI2             1
+#define _DEF_SPI3             2
+#define _DEF_SPI4             3
+
+#define _DEF_I2C1             0
+#define _DEF_I2C2             1
+#define _DEF_I2C3             2
+#define _DEF_I2C4             3
+
+#define _DEF_I2S1             0
+#define _DEF_I2S2             1
+#define _DEF_I2S3             2
+#define _DEF_I2S4             3
+
+#define _DEF_PWM1             0
+#define _DEF_PWM2             1
+#define _DEF_PWM3             2
+#define _DEF_PWM4             3
+
+#define _DEF_LOW              0
+#define _DEF_HIGH             1
+
+#define _DEF_INPUT            (1<<0)
+#define _DEF_OUTPUT           (1<<1)
+#define _DEF_PULLUP           (1<<2)
+#define _DEF_PULLDOWN         (1<<3)
+#define _DEF_INPUT_PULLUP     (_DEF_INPUT  | _DEF_PULLUP)
+#define _DEF_INPUT_PULLDOWN   (_DEF_INPUT  | _DEF_PULLDOWN)
+#define _DEF_OUTPUT_PULLUP    (_DEF_OUTPUT | _DEF_PULLUP)
+#define _DEF_OUTPUT_PULLDOWN  (_DEF_OUTPUT | _DEF_PULLDOWN)
+
+#define _DEF_CAN1             0
+#define _DEF_CAN2             1
+#define _DEF_CAN3             2
+#define _DEF_CAN4             3
+
+#define _DEF_CAN_100K         0
+#define _DEF_CAN_125K         1
+#define _DEF_CAN_250K         2
+#define _DEF_CAN_500K         3
+#define _DEF_CAN_1000K        4
+
+#define _DEF_CAN_STD          0
+#define _DEF_CAN_EXT          1
+
+#define _DEF_DXL1             0
+#define _DEF_DXL2             1
+#define _DEF_DXL3             2
+#define _DEF_DXL4             3
+
+#define constrain(amt,low,high) ((int)(amt)<(low)?(low):((amt)>(high)?(high):(amt)))
+
+//#define _USE_HW_EEPROM
+#define      HW_EEPROM_MAX_SIZE     (1*1024)
+
+//#define _USE_HW_I2C
+#define      HW_I2C_MAX_CH          1
+#define      HW_I2C_CH_EEPROM       _DEF_I2C1
+
+
 
 #define VBUS_SENSE_Pin GPIO_PIN_2
 #define VBUS_SENSE_GPIO_Port GPIOC

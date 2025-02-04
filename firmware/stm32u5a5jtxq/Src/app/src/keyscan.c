@@ -213,7 +213,7 @@ void cliCmd(cli_args_t *args)
     event_cnt = qbufferAvailable(&keyscan_event_q);
     cliPrintf("event_cnt : %d\n", event_cnt);
 
-    for (int i=0; i<event_cnt; i++)
+    for (uint32_t i=0; i<event_cnt; i++)
     {
       keyscan_event_q_t event_q;
 

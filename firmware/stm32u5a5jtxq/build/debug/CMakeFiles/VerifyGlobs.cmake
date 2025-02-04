@@ -114,6 +114,16 @@ if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
 endif()
 
 # SRC_FILES at CMakeLists.txt:78 (file)
+file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/via/*.c")
+set(OLD_GLOB
+  "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/via/via.c"
+  )
+if(NOT "${NEW_GLOB}" STREQUAL "${OLD_GLOB}")
+  message("-- GLOB mismatch!")
+  file(TOUCH_NOCREATE "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/build/debug/CMakeFiles/cmake.verify_globs")
+endif()
+
+# SRC_FILES at CMakeLists.txt:78 (file)
 file(GLOB NEW_GLOB LIST_DIRECTORIES true "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/device/*.c")
 set(OLD_GLOB
   "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/device/stm32u5xx_hal_msp.c"

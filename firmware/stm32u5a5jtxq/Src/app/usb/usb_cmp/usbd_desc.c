@@ -24,8 +24,12 @@
 
 
 
-#define USBD_VID                      0x0483
-#define USBD_PID_HS                   (0x5200|(HW_USB_CDC<<2)|(HW_USB_MSC<<1)|(HW_USB_HID<<0))
+// #define USBD_VID                      0x0483
+// #define USBD_PID_HS                   0x5200
+
+// box75
+#define USBD_VID                      0x7668
+#define USBD_PID_HS                   0xB075
 
 
 #define USBD_LANGID_STRING            1033

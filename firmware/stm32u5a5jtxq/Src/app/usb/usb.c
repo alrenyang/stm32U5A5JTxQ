@@ -29,9 +29,14 @@ extern USBD_DescriptorsTypeDef CMP_Desc;
 
 static USBD_DescriptorsTypeDef *p_desc = NULL;
 
-static uint8_t hid_ep_tbl[] = {HID_EPIN_ADDR};
-static uint8_t cdc_ep_tbl[] = {CDC_IN_EP, CDC_OUT_EP, CDC_CMD_EP};
-
+static uint8_t hid_ep_tbl[] = {
+  HID_EPIN_ADDR, 
+  HID_VIA_EP_IN, 
+  HID_VIA_EP_OUT};
+static uint8_t cdc_ep_tbl[] = {
+  CDC_IN_EP, 
+  CDC_OUT_EP, 
+  CDC_CMD_EP};
 
 
 #ifdef _USE_HW_CLI
@@ -127,8 +132,8 @@ bool usbBegin(UsbMode_t usb_mode)
 
 
     /* Add Supported Class */
-    USBD_RegisterClassComposite(&USBD_Device, USBD_CDC_CLASS, CLASS_TYPE_CDC, cdc_ep_tbl);
     USBD_RegisterClassComposite(&USBD_Device, USBD_HID_CLASS, CLASS_TYPE_HID, hid_ep_tbl);
+    USBD_RegisterClassComposite(&USBD_Device, USBD_CDC_CLASS, CLASS_TYPE_CDC, cdc_ep_tbl);
 
     USBD_CDC_RegisterInterface(&USBD_Device, &USBD_CDC_fops);
 
@@ -139,7 +144,7 @@ bool usbBegin(UsbMode_t usb_mode)
     
     p_desc = &CMP_Desc;
     logPrintf("[OK] usbBegin()\n");
-    logPrintf("     USB_CMP\r\n");
+    logPrintf("     USB_CMP\n");
     #endif
   }  
   else

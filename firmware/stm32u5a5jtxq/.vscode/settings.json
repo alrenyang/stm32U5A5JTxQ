@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "gpio.h": "c",
-        "log.h": "c"
+        "log.h": "c",
+        "usbd_desc.h": "c"
     }
 }

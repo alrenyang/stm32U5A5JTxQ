@@ -163,67 +163,67 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/device"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/device"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/Common/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/Common/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/keyboard"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "ASM",
@@ -306,67 +306,67 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/device"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/device"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/Common/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/Common/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/keyboard"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "C",
@@ -508,67 +508,67 @@
 			[
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/device"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/device"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/Common/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/Common/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cdc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_cmp"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/usb/usb_hid"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/app/keyboard"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/app/keyboard"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32U5xx_HAL_Driver/Inc/Legacy"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/CMSIS/Device/ST/STM32U5xx/Include"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
+					"path" : "D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/Src/lib/ST/STM32_USB_Device_Library/Core/Inc"
 				}
 			],
 			"language" : "CXX",
@@ -602,7 +602,7 @@
 			},
 			{
 				"backtrace" : 2,
-				"fragment" : "-T/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/stm32u5a5zjtxq_FLASH.ld",
+				"fragment" : "-TD:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/stm32u5a5zjtxq_FLASH.ld",
 				"role" : "flags"
 			},
 			{
@@ -697,7 +697,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "-L/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/stm32u5a5jtxq",
+				"fragment" : "-LD:\\STM32\\STM32U5a5\\firmware\\stm32u5a5jtxq\\stm32u5a5jtxq",
 				"role" : "libraryPath"
 			}
 		],

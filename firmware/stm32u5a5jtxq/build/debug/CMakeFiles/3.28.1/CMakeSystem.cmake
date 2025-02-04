@@ -1,9 +1,9 @@
-set(CMAKE_HOST_SYSTEM "Darwin-24.2.0")
-set(CMAKE_HOST_SYSTEM_NAME "Darwin")
-set(CMAKE_HOST_SYSTEM_VERSION "24.2.0")
-set(CMAKE_HOST_SYSTEM_PROCESSOR "arm64")
+set(CMAKE_HOST_SYSTEM "Windows-10.0.22631")
+set(CMAKE_HOST_SYSTEM_NAME "Windows")
+set(CMAKE_HOST_SYSTEM_VERSION "10.0.22631")
+set(CMAKE_HOST_SYSTEM_PROCESSOR "AMD64")
 
-include("/Users/alrenm3/program/stm32u5a5/stm32U5A5JTxQ/firmware/stm32u5a5jtxq/cmake/gcc-arm-none-eabi.cmake")
+include("D:/STM32/STM32U5a5/firmware/stm32u5a5jtxq/cmake/gcc-arm-none-eabi.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

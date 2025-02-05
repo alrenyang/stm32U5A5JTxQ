@@ -78,8 +78,8 @@ bool usbBegin(UsbMode_t usb_mode)
     is_usb_mode = USB_CDC_MODE;
     
     p_desc = &VCP_Desc;
-    logPrintf("[OK] usbBegin()\n");
-    logPrintf("     USB_CDC\r\n");
+    logPrintf("[OK] usbBegin()\n\r");
+    logPrintf("     USB_CDC\n\r");
     #endif
   }
   else if (usb_mode == USB_MSC_MODE)
@@ -102,7 +102,7 @@ bool usbBegin(UsbMode_t usb_mode)
     is_usb_mode = USB_MSC_MODE;
 
     p_desc = &MSC_Desc;
-    logPrintf("[OK] usbBegin()\n");
+    logPrintf("[OK] usbBegin()\n\r");
     logPrintf("     USB_MSC\r\n");
     #endif
   }
@@ -121,8 +121,8 @@ bool usbBegin(UsbMode_t usb_mode)
     is_usb_mode = USB_HID_MODE;
     
     p_desc = &HID_Desc;
-    logPrintf("[OK] usbBegin()\n");
-    logPrintf("     USB_HID\r\n");
+    logPrintf("[OK] usbBegin()\n\r");
+    logPrintf("     USB_HID\n\r");
     #endif
   }  
   else if (usb_mode == USB_CMP_MODE)
@@ -143,15 +143,15 @@ bool usbBegin(UsbMode_t usb_mode)
     is_usb_mode = USB_CDC_MODE;
     
     p_desc = &CMP_Desc;
-    logPrintf("[OK] usbBegin()\n");
-    logPrintf("     USB_CMP\n");
+    logPrintf("[OK] usbBegin()\n\r");
+    logPrintf("     USB_CMP\n\r");
     #endif
   }  
   else
   {
     is_init = false;
 
-    logPrintf("[NG] usbBegin()\n");
+    logPrintf("[NG] usbBegin()\n\r");
   }
 
   return is_init;
@@ -238,15 +238,15 @@ void cliCmd(cli_args_t *args)
       pid = (p_data[11]<<8)|(p_data[10]<<0);
     }
 
-    cliPrintf("USB PID     : 0x%04X\n", vid);
-    cliPrintf("USB VID     : 0x%04X\n", pid);
+    cliPrintf("USB PID     : 0x%04X\n\r", vid);
+    cliPrintf("USB VID     : 0x%04X\n\r", pid);
 
     while(cliKeepLoop())
     {
-      cliPrintf("USB Mode    : %d\n", usbGetMode());
-      cliPrintf("USB Type    : %d\n", usbGetType());
-      cliPrintf("USB Connect : %d\n", usbIsConnect());
-      cliPrintf("USB Open    : %d\n", usbIsOpen());
+      cliPrintf("USB Mode    : %d\n\r", usbGetMode());
+      cliPrintf("USB Type    : %d\n\r", usbGetType());
+      cliPrintf("USB Connect : %d\n\r", usbIsConnect());
+      cliPrintf("USB Open    : %d\n\r", usbIsOpen());
       cliPrintf("\x1B[%dA", 4);
       delay(100);
     }
@@ -267,10 +267,10 @@ void cliCmd(cli_args_t *args)
       if (millis()-pre_time >= 1000)
       {
         pre_time = millis();
-        logPrintf("tx : %d KB/s\n", tx_cnt/1024);
+        logPrintf("tx : %d KB/s\n\r", tx_cnt/1024);
         tx_cnt = 0;
       }
-      sent_len = cdcWrite((uint8_t *)"123456789012345678901234567890\n", 31);
+      sent_len = cdcWrite((uint8_t *)"123456789012345678901234567890\n\r", 31);
       tx_cnt += sent_len;
     }
     cliPrintf("\x1B[%dB", 2);
@@ -290,7 +290,7 @@ void cliCmd(cli_args_t *args)
       if (millis()-pre_time >= 1000)
       {
         pre_time = millis();
-        logPrintf("rx : %d KB/s\n", rx_cnt/1024);
+        logPrintf("rx : %d KB/s\n\r", rx_cnt/1024);
         rx_cnt = 0;
       }
 
@@ -311,10 +311,10 @@ void cliCmd(cli_args_t *args)
 
   if (ret == false)
   {
-    cliPrintf("usb info\n");
+    cliPrintf("usb info\n\r");
     #if HW_USB_CDC == 1
-    cliPrintf("usb tx\n");
-    cliPrintf("usb rx\n");
+    cliPrintf("usb tx\n\r");
+    cliPrintf("usb rx\n\r");
     #endif
   }
 }

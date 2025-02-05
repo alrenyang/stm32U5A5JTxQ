@@ -26,6 +26,9 @@
 #define TEMP_V25       1.43
 #define TEMP_VSENSE    3.3/4096
 
+
+#define _USE_VIA_SHOW   //show via data
+
 #define _USE_HW_MICROS
 //#define _USE_WSDG_
 #define _USE_DBG_

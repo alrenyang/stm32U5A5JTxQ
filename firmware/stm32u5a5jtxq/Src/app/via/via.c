@@ -299,6 +299,12 @@ void viaHidCmdPrint(uint8_t *data, uint8_t length, bool is_resp)
             length,
             command_id_str[*command_id]);
 
+#ifdef _USE_VIA_SHOW
+  is_resp = false;
+#else
+  is_resp = true;
+#endif
+
   if (is_resp == true)
   {
     logPrintf("\n\r");
@@ -308,7 +314,7 @@ void viaHidCmdPrint(uint8_t *data, uint8_t length, bool is_resp)
   for (int i=0; i<data_len; i++)
   {
     if (i%8 == 0)
-      logPrintf("\n     ");
+      logPrintf("\n\r     ");
     logPrintf("0x%02X ", command_data[i]);
   }
   logPrintf("\n\r");  

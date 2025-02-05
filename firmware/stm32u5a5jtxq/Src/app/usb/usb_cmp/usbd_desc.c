@@ -24,12 +24,12 @@
 
 
 
-// #define USBD_VID                      0x0483
-// #define USBD_PID_HS                   0x5200
+#define USBD_VID                      0x0483
+#define USBD_PID_HS                   0x5200
 
 // box75
-#define USBD_VID                      0x7668
-#define USBD_PID_HS                   0xB075
+// #define USBD_VID                      0x7668
+// #define USBD_PID_HS                   0xB075
 
 
 #define USBD_LANGID_STRING            1033

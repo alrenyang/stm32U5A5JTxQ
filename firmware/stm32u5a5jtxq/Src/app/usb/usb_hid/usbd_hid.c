@@ -385,7 +385,7 @@ static uint8_t USBD_HID_Init(USBD_HandleTypeDef *pdev, uint8_t cfgidx)
   {
     is_cli = true;
 
-    logPrintf("[OK] usb hid - keyboard\n");
+    logPrintf("[OK] usb hid - keyboard\n\r");
     cliAdd("usbhid", cliCmd);
   }
 
@@ -443,11 +443,11 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
     return (uint8_t)USBD_FAIL;
   }
 
-  logDebug("HID_SETUP %d\n", pdev->classId);
-  logDebug("  req->bmRequest : 0x%X\n", req->bmRequest);
-  logDebug("  req->bRequest  : 0x%X\n", req->bRequest);
-  logDebug("       wIndex    : 0x%X\n", req->wIndex);
-  logDebug("       wLength   : 0x%X %d\n", req->wLength, req->wLength);
+  logDebug("HID_SETUP %d\n\r", pdev->classId);
+  logDebug("  req->bmRequest : 0x%X\n\r", req->bmRequest);
+  logDebug("  req->bRequest  : 0x%X\n\r", req->bRequest);
+  logDebug("       wIndex    : 0x%X\n\r", req->wIndex);
+  logDebug("       wLength   : 0x%X %d\n\r", req->wLength, req->wLength);
 
   switch (req->bmRequest & USB_REQ_TYPE_MASK)
   {
@@ -455,27 +455,27 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
       switch (req->bRequest)
       {
         case USBD_HID_REQ_SET_PROTOCOL:
-          logDebug("  USBD_HID_REQ_SET_PROTOCOL  : 0x%X, 0x%d\n", req->wValue, req->wLength);      
+          logDebug("  USBD_HID_REQ_SET_PROTOCOL  : 0x%X, 0x%d\n\r", req->wValue, req->wLength);      
           hhid->Protocol = (uint8_t)(req->wValue);
           break;
 
         case USBD_HID_REQ_GET_PROTOCOL:
-          logDebug("  USBD_HID_REQ_GET_PROTOCOL  : 0x%X, 0x%d\n", req->wValue, req->wLength);      
+          logDebug("  USBD_HID_REQ_GET_PROTOCOL  : 0x%X, 0x%d\n\r", req->wValue, req->wLength);      
           (void)USBD_CtlSendData(pdev, (uint8_t *)&hhid->Protocol, 1U);
           break;
 
         case USBD_HID_REQ_SET_IDLE:
-          logDebug("  USBD_HID_REQ_SET_IDLE  : 0x%X, 0x%d\n", req->wValue, req->wLength);      
+          logDebug("  USBD_HID_REQ_SET_IDLE  : 0x%X, 0x%d\n\r", req->wValue, req->wLength);      
           hhid->IdleState = (uint8_t)(req->wValue >> 8);
           break;
 
         case USBD_HID_REQ_GET_IDLE:
-          logDebug("  USBD_HID_REQ_GET_IDLE  : 0x%X, 0x%d\n", req->wValue, req->wLength);          
+          logDebug("  USBD_HID_REQ_GET_IDLE  : 0x%X, 0x%d\n\r", req->wValue, req->wLength);          
           (void)USBD_CtlSendData(pdev, (uint8_t *)&hhid->IdleState, 1U);
           break;
 
         case USBD_HID_REQ_SET_REPORT:  
-          logDebug("  USBD_HID_REQ_SET_REPORT  : 0x%X, 0x%d\n", req->wValue, req->wLength);     
+          logDebug("  USBD_HID_REQ_SET_REPORT  : 0x%X, 0x%d\n\r", req->wValue, req->wLength);     
           {
             const uint8_t hid_buf[HID_KEYBOARD_REPORT_SIZE] = {0, 0, 0, 0, 0, 0, 0, 0};
             #ifdef USE_USBD_COMPOSITE
@@ -495,7 +495,7 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
           break;
 
         default:
-          logDebug("  ERROR  : 0x%X\n", req->wValue); 
+          logDebug("  ERROR  : 0x%X\n\r", req->wValue); 
           USBD_CtlError(pdev, req);
           ret = USBD_FAIL;
           break;
@@ -517,7 +517,7 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
           break;
 
         case USB_REQ_GET_DESCRIPTOR:
-          logDebug("  USB_REQ_GET_DESCRIPTOR  : 0x%X\n", req->wValue); 
+          logDebug("  USB_REQ_GET_DESCRIPTOR  : 0x%X\n\r", req->wValue); 
           if ((req->wValue >> 8) == HID_REPORT_DESC)
           {
             switch(req->wIndex)
@@ -548,7 +548,7 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
           break;
 
         case USB_REQ_GET_INTERFACE :
-          logDebug("  USB_REQ_GET_INTERFACE  : 0x%X\n", req->wValue); 
+          logDebug("  USB_REQ_GET_INTERFACE  : 0x%X\n\r", req->wValue); 
           if (pdev->dev_state == USBD_STATE_CONFIGURED)
           {
             (void)USBD_CtlSendData(pdev, (uint8_t *)&hhid->AltSetting, 1U);
@@ -561,7 +561,7 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
           break;
 
         case USB_REQ_SET_INTERFACE:
-          logDebug("  USB_REQ_SET_INTERFACE  : 0x%X\n", req->wValue); 
+          logDebug("  USB_REQ_SET_INTERFACE  : 0x%X\n\r", req->wValue); 
           if (pdev->dev_state == USBD_STATE_CONFIGURED)
           {
             hhid->AltSetting = (uint8_t)(req->wValue);
@@ -574,11 +574,11 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
           break;
 
         case USB_REQ_CLEAR_FEATURE:
-          logDebug("  USB_REQ_CLEAR_FEATURE  : 0x%X\n", req->wValue); 
+          logDebug("  USB_REQ_CLEAR_FEATURE  : 0x%X\n\r", req->wValue); 
           break;
 
         default:
-          logDebug("  ERROR  : 0x%X\n", req->wValue); 
+          logDebug("  ERROR  : 0x%X\n\r", req->wValue); 
           USBD_CtlError(pdev, req);
           ret = USBD_FAIL;
           break;
@@ -602,13 +602,13 @@ static uint8_t USBD_HID_Setup(USBD_HandleTypeDef *pdev, USBD_SetupReqTypedef *re
   */
 uint8_t USBD_HID_EP0_RxReady(USBD_HandleTypeDef *pdev)
 {
-  logDebug("USBD_HID_EP0_RxReady()\n");
-  logDebug("  req->bmRequest : 0x%X\n", ep0_req.bmRequest);
-  logDebug("  req->bRequest  : 0x%X\n", ep0_req.bRequest);
+  logDebug("USBD_HID_EP0_RxReady()\n\r");
+  logDebug("  req->bmRequest : 0x%X\n\r", ep0_req.bmRequest);
+  logDebug("  req->bRequest  : 0x%X\n\r", ep0_req.bRequest);
   logDebug("  %d \n", ep0_req.wLength);
   for (int i=0; i<ep0_req.wLength; i++)
   {
-    logDebug("  %d : 0x%02X\n", i, ep0_req_buf[i]);
+    logDebug("  %d : 0x%02X\n\r", i, ep0_req_buf[i]);
   }
 
   if (resp_led_busy)
@@ -697,7 +697,7 @@ uint32_t USBD_HID_GetPollingInterval(USBD_HandleTypeDef *pdev)
 #if (USBD_SUPPORT_USER_STRING_DESC == 1U)
 uint8_t *USBD_HID_GetUsrStrDescriptor(struct _USBD_HandleTypeDef *pdev, uint8_t index,  uint16_t *length)
 {
-  logPrintf("USBD_HID_GetUsrStrDescriptor() %d\n", index);
+  logPrintf("USBD_HID_GetUsrStrDescriptor() %d\n\r", index);
   return USBD_HID_ProductStrDescriptor(pdev->dev_speed, length);
 }
 #endif
@@ -944,7 +944,7 @@ void cliCmd(cli_args_t *args)
       if (millis()-pre_time >= 1000)
       {
         pre_time = millis();
-        cliPrintf("hid rate %d Hz, max %4d us, min %d us, %d\n", 
+        cliPrintf("hid rate %d Hz, max %4d us, min %d us, %d\n\r", 
           data_in_rate,
           rate_time_max,
           rate_time_min,
@@ -982,7 +982,7 @@ void cliCmd(cli_args_t *args)
           index++;
           resp_time = resp_led_buf[resp_led_cnt-1] - resp_led_buf[0];
           resp_time_sum += resp_time;
-          cliPrintf("%d : %d us, avg %d us\n", index, resp_time, resp_time_sum/index);          
+          cliPrintf("%d : %d us, avg %d us\n\r", index, resp_time, resp_time_sum/index);          
           resp_led_done = false;
         }
         if (cliAvailable())
@@ -1003,10 +1003,10 @@ void cliCmd(cli_args_t *args)
 
   if (ret == false)
   {
-    cliPrintf("usbhid info\n");
-    cliPrintf("usbhid rate\n");
-    cliPrintf("usbhid rate his\n");
-    cliPrintf("usbhid resp\n");
+    cliPrintf("usbhid info\n\r");
+    cliPrintf("usbhid rate\n\r");
+    cliPrintf("usbhid rate his\n\r");
+    cliPrintf("usbhid resp\n\r");
 
   }
 }
